@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e207a65-be94-4306-ab93-a033587053ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trace-21.pcap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

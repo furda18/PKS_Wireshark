@@ -99,6 +99,7 @@ def process_pcap(file_name):
                                                 if port == portrow[0:4]:
                                                     print(portrow + " ,,,, " + port)
                                                     file1.write(portrow[5:len(portrow)] + "\n")
+                                                    print("asa")
 
                     #IPv6
                     if naslo_ethertype == True and line[0:4] == "86dd":
