@@ -1,4 +1,4 @@
-Lets get it started
+Lets get it started in file: trace-20.pcap
 ramec 1
 dlzka ramca poskytnuta pcap API - 62 B
 dlzka ramca prenasaneho po mediu - 66 B
@@ -8,8 +8,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 1d 40 00 80 06  64 4e 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  7f db 00 00 00 00 70 02
@@ -24,8 +25,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 2c 11 0c 40 00 3d 06  a1 63 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  36 a5 7c 21 7f dc 60 12
@@ -40,8 +42,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 1f 40 00 80 06  64 54 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  7f dc 55 ec 36 a6 50 10
@@ -56,8 +59,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 df 0b 20 40 00 80 06  62 9c 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  7f dc 55 ec 36 a6 50 18
@@ -99,8 +103,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 0d 40 00 3d 06  9b b2 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  36 a6 7c 21 81 93 50 10
@@ -206,8 +211,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 0e 40 00 3d 06  9b b1 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  3c 5a 7c 21 81 93 50 10
@@ -313,8 +319,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 22 40 00 80 06  64 51 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  81 93 55 ec 42 0e 50 10
@@ -329,8 +336,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 11 11 0f 40 00 3d 06  9f 7b 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  42 0e 7c 21 81 93 50 18
@@ -375,8 +383,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 41 0b 23 40 00 80 06  63 37 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  81 93 55 ec 43 f7 50 18
@@ -408,8 +417,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 3f 11 10 40 00 3d 06  9f 4c 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  43 f7 7c 21 82 ac 50 18
@@ -457,208 +467,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 25 40 00 80 06  64 4e 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  82 ac 55 ec 46 0e 50 10
 40 70 44 8c 00 00 
-
-ramec 12
-dlzka ramca poskytnuta pcap API - 113 B
-dlzka ramca prenasaneho po mediu - 117 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 04 75 7F AB 51 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  75 7f ab 51 00 63 e0 e0
-03 ff ff 00 60 00 04 00  00 00 00 ff ff ff ff ff
-ff 04 52 00 00 00 00 00  04 75 7f ab 51 04 52 00
-02 06 7b 4b 49 56 54 00  00 30 00 00 00 78 00 00
-00 30 00 00 00 30 00 00  00 e0 b7 51 c1 00 00 00
-00 70 3f fa c7 44 b9 fa  c7 74 00 92 c2 00 00 00
-00 00 00 00 00 00 00 00  04 75 7f ab 51 05 55 00
-01 
-
-ramec 13
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 82 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 14
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 73 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 15
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 cb 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 16
-dlzka ramca poskytnuta pcap API - 446 B
-dlzka ramca prenasaneho po mediu - 450 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 b0 ff ff
-01 b0 00 01 30 09 80 00  ff ff ff ff ff ff 04 53
-30 09 80 00 00 04 76 a4  e4 8c 04 53 00 02 00 00
-00 80 00 03 00 04 00 00  00 01 00 02 00 02 00 00
-00 02 00 03 00 04 e0 12  50 10 00 03 00 04 00 00
-00 03 00 03 00 04 c0 8a  fb b6 00 06 00 06 e0 12
-60 00 00 02 00 02 00 00  00 85 00 04 00 05 00 00
-00 05 00 03 00 04 0d 14  71 75 00 03 00 04 00 00
-00 86 00 04 00 05 e0 12  61 60 00 02 00 02 00 00
-00 87 00 04 00 05 20 10  81 28 00 03 00 04 00 00
-00 88 00 04 00 05 00 11  10 62 00 02 00 03 00 00
-00 09 00 03 00 04 00 13  00 09 00 04 00 05 20 12
-62 24 00 02 00 02 0b 33  72 14 00 04 00 05 00 11
-10 66 00 03 00 04 00 00  01 6c 00 03 00 04 00 11
-10 64 00 02 00 03 00 00  00 10 00 03 00 04 00 00
-04 8c 00 03 00 04 00 08  01 07 00 04 00 05 00 00
-00 12 00 03 00 04 30 12  61 60 00 02 00 02 e0 12
-50 00 00 02 00 02 e0 12  51 60 00 02 00 02 00 00
-00 16 00 04 00 05 30 10  60 00 00 02 00 03 30 09
-90 00 00 01 00 01 00 08  01 12 00 04 00 05 00 00
-02 5a 00 04 00 05 00 11  10 73 00 02 00 03 50 2e
-0f aa 00 05 00 06 00 00  00 1f 00 03 00 04 e0 12
-51 92 00 02 00 02 e0 10  80 00 00 02 00 02 00 39
-a0 0a 00 06 00 07 30 11  90 00 00 02 00 02 00 04
-81 60 00 05 00 06 e0 12  00 00 00 02 00 02 00 08
-00 02 00 04 00 05 23 dc  fa 6c 00 09 00 0c 30 10
-50 00 00 02 00 03 2a 07  f4 57 00 02 00 03 20 12
-61 28 00 02 00 02 30 11  80 00 00 02 00 02 
-
-ramec 17
-dlzka ramca poskytnuta pcap API - 446 B
-dlzka ramca prenasaneho po mediu - 450 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 b0 ff ff
-01 b0 00 01 30 09 80 00  ff ff ff ff ff ff 04 53
-30 09 80 00 00 04 76 a4  e4 8c 04 53 00 02 00 00
-00 31 00 05 00 05 20 12  61 92 00 02 00 02 00 00
-00 32 00 03 00 04 30 10  81 28 00 03 00 04 00 00
-00 39 00 04 00 05 00 01  60 08 00 05 00 06 30 12
-62 24 00 02 00 02 44 16  db 43 00 09 00 0c 0a 14
-71 75 00 02 00 03 0b 7e  15 8d 00 06 00 07 37 86
-3d 51 00 05 00 06 20 10  80 00 00 03 00 04 93 af
-7e a2 00 03 00 04 00 00  00 48 00 04 00 05 35 a3
-1e c6 00 05 00 06 00 00  01 28 00 03 00 04 00 00
-00 49 00 04 00 05 00 03  9c 0b 00 05 00 06 30 10
-00 00 00 02 00 03 00 03  9c 0e 00 06 00 07 e0 12
-61 28 00 02 00 02 e0 10  90 00 00 02 00 02 e0 12
-61 92 00 02 00 02 00 00  01 30 00 03 00 04 e0 12
-60 32 00 02 00 02 30 10  10 00 00 02 00 03 79 62
-44 16 00 05 00 06 00 03  20 60 00 04 00 05 00 06
-60 10 00 04 00 05 11 16  d9 11 00 03 00 04 e0 11
-00 00 00 01 00 01 30 12  61 28 00 02 00 02 e0 11
-50 00 00 02 00 02 00 08  40 01 00 04 00 05 00 03
-20 11 00 05 00 06 00 00  00 64 00 03 00 04 30 12
-61 92 00 02 00 02 00 01  01 00 00 04 00 05 20 12
-61 60 00 02 00 02 30 12  10 00 00 02 00 02 1a 09
-fe 8d 00 06 00 06 e0 10  81 28 00 02 00 02 e0 12
-62 24 00 02 00 02 92 23  33 c3 00 03 00 04 e0 09
-60 00 00 02 00 02 4b 57  79 62 00 08 00 0b 30 09
-70 00 00 01 00 01 00 08  50 02 00 05 00 06 30 10
-80 00 00 03 00 04 00 00  03 9a 00 05 00 06 
-
-ramec 18
-dlzka ramca poskytnuta pcap API - 78 B
-dlzka ramca prenasaneho po mediu - 82 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 00 40 ff ff
-00 40 00 01 30 09 80 00  ff ff ff ff ff ff 04 53
-30 09 80 00 00 04 76 a4  e4 8c 04 53 00 02 e0 11
-10 58 00 02 00 02 e0 12  30 00 00 02 00 03 00 00
-03 9c 00 05 00 06 e0 12  52 24 00 02 00 02 
-
-ramec 19
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 75 7F AB 51 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  75 7f ab 51 08 06 00 01
-08 00 06 04 00 01 00 04  75 7f ab 51 93 af 62 d0
-00 00 00 00 00 00 93 af  62 28 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 20
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 82 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 21
-dlzka ramca poskytnuta pcap API - 87 B
-dlzka ramca prenasaneho po mediu - 91 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 D7 80 C2 
-Cielova MAC adresa: 00 04 76 A4 E4 8C 
-IPv4
-zdrojova IP adresa: 147.175.98.238
-cielova IP adresa: 147.175.99.30
-UDP
-00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
-00 49 0b 2b 00 00 80 11  42 0e 93 af 62 ee 93 af
-63 1e 04 47 00 35 00 35  53 23 31 50 01 00 00 01
-00 00 00 00 00 00 03 32  30 38 02 39 38 03 31 37
-35 03 31 34 37 07 69 6e  2d 61 64 64 72 04 61 72
-70 61 00 00 0c 00 01 
-
-ramec 22
-dlzka ramca poskytnuta pcap API - 172 B
-dlzka ramca prenasaneho po mediu - 176 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: 00 00 C0 D7 80 C2 
-IPv4
-zdrojova IP adresa: 147.175.99.30
-cielova IP adresa: 147.175.98.238
-UDP
-00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
-00 9e 23 fd 00 00 3f 11  69 e7 93 af 63 1e 93 af
-62 ee 00 35 04 47 00 8a  21 c0 31 50 85 83 00 01
-00 00 00 01 00 00 03 32  30 38 02 39 38 03 31 37
-35 03 31 34 37 07 69 6e  2d 61 64 64 72 04 61 72
-70 61 00 00 0c 00 01 02  39 38 03 31 37 35 03 31
-34 37 07 49 4e 2d 41 44  44 52 04 41 52 50 41 00
-00 06 00 01 00 00 54 60  00 32 04 73 75 6e 31 03
-64 63 73 03 65 6c 66 05  73 74 75 62 61 02 73 6b
-00 04 72 6f 6f 74 c0 50  77 64 6d c0 00 01 51 80
-00 00 8c a0 00 12 75 00  00 00 54 60 
 
 ramec 23
 dlzka ramca poskytnuta pcap API - 488 B
@@ -669,8 +484,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 da 0b 2c 40 00 80 06  62 95 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  82 ac 55 ec 46 0e 50 18
@@ -712,8 +528,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 e8 40 00 3d 06  9a d7 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  46 0e 7c 21 84 5e 50 10
@@ -819,8 +636,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 e9 40 00 3d 06  9a d6 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  4b c2 7c 21 84 5e 50 10
@@ -926,8 +744,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 ea 40 00 3d 06  9a d5 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  51 76 7c 21 84 5e 50 10
@@ -1033,8 +852,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 eb 40 00 3d 06  9a d4 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  57 2a 7c 21 84 5e 50 10
@@ -1140,8 +960,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 2e 40 00 80 06  64 45 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  84 5e 55 ec 5c de 50 10
@@ -1156,8 +977,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 11 ed 40 00 3d 06  9a d2 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  62 92 7c 21 84 5e 50 10
@@ -1263,8 +1085,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 d1 11 ee 40 00 3d 06  9d dc 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  68 46 7c 21 84 5e 50 18
@@ -1321,8 +1144,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 2f 40 00 80 06  64 44 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  84 5e 55 ec 5c de 50 10
@@ -1337,66 +1161,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 30 40 00 80 06  64 43 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  84 5e 55 ec 5c de 50 10
 44 70 28 0a 00 00 
-
-ramec 33
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 8c 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 34
-dlzka ramca poskytnuta pcap API - 114 B
-dlzka ramca prenasaneho po mediu - 118 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 52 54 AB 14 55 F4 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 52 54  ab 14 55 f4 00 64 e0 e0
-03 ff ff 00 60 00 04 30  09 80 00 ff ff ff ff ff
-ff 04 52 30 09 80 00 52  54 ab 14 55 f4 40 18 00
-02 06 40 44 32 30 35 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 30 09 80 00 52  54 ab 14 55 f4 e8 85 00
-01 53 
-
-ramec 35
-dlzka ramca poskytnuta pcap API - 247 B
-dlzka ramca prenasaneho po mediu - 251 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 75 BF 26 0E 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.213
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 04  75 bf 26 0e 08 00 45 00
-00 e9 00 61 00 00 80 11  4c 70 93 af 62 d5 93 af
-62 ff 00 8a 00 8a 00 d5  a8 5e 11 0e 80 2e 93 af
-62 d5 00 8a 00 bf 00 00  20 45 45 44 44 44 43 44
-45 43 41 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 41  41 00 20 41 42 41 43 46
-50 46 50 45 4e 46 44 45  43 46 43 45 50 46 48 46
-44 45 46 46 50 46 50 41  43 41 42 00 ff 53 4d 42
-25 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 11 00 00 25
-00 00 00 00 00 00 00 00  00 e8 03 00 00 00 00 00
-00 00 00 25 00 56 00 03  00 01 00 01 00 02 00 36
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 42 52 4f 57 53
-45 00 0c 00 60 ea 00 00  49 53 00 60 f9 7f 6f 15
-4c 7c 00 60 f9 7f 00 60  03 0a 00 10 00 80 bc d7
-4c 7c 44 33 32 34 00 
 
 ramec 36
 dlzka ramca poskytnuta pcap API - 1514 B
@@ -1407,8 +1178,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 12 23 40 00 3d 06  9a 9c 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  5c de 7c 21 84 5e 50 10
@@ -1514,60 +1286,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 32 40 00 80 06  64 41 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  84 5e 55 ec 6a ef 50 10
 44 70 19 f9 00 00 
-
-ramec 38
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 73 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 39
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 cb 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 40
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 8c 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 41
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 14 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 42
 dlzka ramca poskytnuta pcap API - 500 B
@@ -1578,8 +1303,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 e6 0b 33 40 00 80 06  62 82 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  84 5e 55 ec 6a ef 50 18
@@ -1622,8 +1348,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 e7 12 d5 40 00 3d 06  9e df 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  6a ef 7c 21 86 1c 50 18
@@ -1641,30 +1368,6 @@ e4 20 d4 4b 00 00 48 54  54 50 2f 31 2e 31 20 33
 62 31 2d 31 34 31 37 2d  33 66 62 32 30 61 33 62
 22 0d 0a 0d 0a 
 
-ramec 44
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 52 54 AB 14 A0 59 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 52 54  ab 14 a0 59 08 06 00 01
-08 00 06 04 00 01 52 54  ab 14 a0 59 93 af 62 e5
-00 00 00 00 00 00 93 af  62 28 20 20 20 20 20 20
-20 20 20 20 20 20 20 20  20 20 20 20 
-
-ramec 45
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 82 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
 ramec 46
 dlzka ramca poskytnuta pcap API - 308 B
 dlzka ramca prenasaneho po mediu - 312 B
@@ -1674,8 +1377,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 26 0b 35 40 00 80 06  63 40 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  86 1c 55 ec 6b ae 50 18
@@ -1706,8 +1410,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 3d 12 ed 40 00 3d 06  9d 71 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  6b ae 7c 21 87 1a 50 18
@@ -1755,24 +1460,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 37 40 00 80 06  64 3c 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  87 1a 55 ec 6d c3 50 10
 41 9c 17 3d 00 00 
-
-ramec 49
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 51 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 50
 dlzka ramca poskytnuta pcap API - 62 B
@@ -1783,8 +1477,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0464
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 38 40 00 80 06  02 05 93 af 62 ee 93 af
 63 3e 04 64 00 50 7c 4e  a9 80 00 00 00 00 70 02
@@ -1799,8 +1494,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0464
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 30 00 00 40 00 3f 06  4e 3d 93 af 63 3e 93 af
 62 ee 00 50 04 64 d4 99  44 c7 7c 4e a9 81 70 12
@@ -1815,8 +1511,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0464
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 3a 40 00 80 06  02 0b 93 af 62 ee 93 af
 63 3e 04 64 00 50 7c 4e  a9 81 d4 99 44 c8 50 10
@@ -1831,8 +1528,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0464
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 9b 0b 3b 40 00 80 06  00 97 93 af 62 ee 93 af
 63 3e 04 64 00 50 7c 4e  a9 81 d4 99 44 c8 50 18
@@ -1870,8 +1568,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0464
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 31 a2 40 00 3f 06  1c a3 93 af 63 3e 93 af
 62 ee 00 50 04 64 d4 99  44 c8 7c 4e aa f4 50 10
@@ -1886,8 +1585,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0464
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 c9 31 a3 40 00 3f 06  1a 01 93 af 63 3e 93 af
 62 ee 00 50 04 64 d4 99  44 c8 7c 4e aa f4 50 18
@@ -1944,8 +1644,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0464
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 31 a4 40 00 3f 06  1c a1 93 af 63 3e 93 af
 62 ee 00 50 04 64 d4 99  47 69 7c 4e aa f4 50 11
@@ -1960,8 +1661,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0464
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 3d 40 00 80 06  02 08 93 af 62 ee 93 af
 63 3e 04 64 00 50 7c 4e  aa f4 d4 99 47 6a 50 10
@@ -1976,8 +1678,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0464
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 3e 40 00 80 06  02 07 93 af 62 ee 93 af
 63 3e 04 64 00 50 7c 4e  aa f4 d4 99 47 6a 50 11
@@ -1992,82 +1695,13 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0464
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 31 a5 40 00 3f 06  1c a0 93 af 63 3e 93 af
 62 ee 00 50 04 64 d4 99  47 6a 7c 4e aa f5 50 10
 19 20 61 2d 00 00 00 00  00 00 00 00 
-
-ramec 60
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 39 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 61
-dlzka ramca poskytnuta pcap API - 92 B
-dlzka ramca prenasaneho po mediu - 96 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 75 E3 BD 71 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.193
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 04  75 e3 bd 71 08 00 45 00
-00 4e 49 52 00 00 80 11  04 2e 93 af 62 c1 93 af
-62 ff 00 89 00 89 00 3a  0f ca 81 02 01 10 00 01
-00 00 00 00 00 00 20 46  48 45 50 46 43 45 4c 45
-48 46 43 45 50 46 46 46  41 43 41 43 41 43 41 43
-41 43 41 43 41 42 4c 00  00 20 00 01 
-
-ramec 62
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 8c 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 63
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 77 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 64
-dlzka ramca poskytnuta pcap API - 92 B
-dlzka ramca prenasaneho po mediu - 96 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 75 E3 BD 71 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.193
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 04  75 e3 bd 71 08 00 45 00
-00 4e 49 53 00 00 80 11  04 2d 93 af 62 c1 93 af
-62 ff 00 89 00 89 00 3a  0f ca 81 02 01 10 00 01
-00 00 00 00 00 00 20 46  48 45 50 46 43 45 4c 45
-48 46 43 45 50 46 46 46  41 43 41 43 41 43 41 43
-41 43 41 43 41 42 4c 00  00 20 00 01 
 
 ramec 65
 dlzka ramca poskytnuta pcap API - 62 B
@@ -2078,8 +1712,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 44 40 00 80 06  02 0d 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  68 4b 00 00 00 00 70 02
@@ -2094,8 +1729,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 2c 17 33 00 00 3f 06  77 22 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  19 41 7c 5b 68 4c 60 12
@@ -2110,8 +1746,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 46 40 00 80 06  02 13 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  68 4c 55 61 19 42 50 10
@@ -2126,8 +1763,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 b9 0b 47 40 00 80 06  00 81 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  68 4c 55 61 19 42 50 18
@@ -2167,29 +1805,13 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 34 00 00 3f 06  77 25 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  19 42 7c 5b 69 dd 50 10
 42 df 25 ed 00 00 00 00  00 00 00 00 
-
-ramec 70
-dlzka ramca poskytnuta pcap API - 92 B
-dlzka ramca prenasaneho po mediu - 96 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 75 E3 BD 71 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.193
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 04  75 e3 bd 71 08 00 45 00
-00 4e 49 54 00 00 80 11  04 2c 93 af 62 c1 93 af
-62 ff 00 89 00 89 00 3a  0f ca 81 02 01 10 00 01
-00 00 00 00 00 00 20 46  48 45 50 46 43 45 4c 45
-48 46 43 45 50 46 46 46  41 43 41 43 41 43 41 43
-41 43 41 43 41 42 4c 00  00 20 00 01 
 
 ramec 71
 dlzka ramca poskytnuta pcap API - 1514 B
@@ -2200,8 +1822,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 17 5d 00 00 3f 06  71 48 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  19 42 7c 5b 69 dd 50 10
@@ -2307,8 +1930,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 01 6f 17 5e 00 00 3f 06  75 b4 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  1e f6 7c 5b 69 dd 50 18
@@ -2343,8 +1967,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 49 40 00 80 06  02 10 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  69 dd 55 61 20 3d 50 10
@@ -2359,8 +1984,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 a4 0b 4a 40 00 80 06  00 93 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  69 dd 55 61 20 3d 50 18
@@ -2399,8 +2025,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 4c 40 00 80 06  02 05 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b5 1f 00 00 00 00 70 02
@@ -2415,8 +2042,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 5f 00 00 3f 06  76 fa 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  20 3d 7c 5b 6b 59 50 10
@@ -2431,8 +2059,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 2c 17 60 00 00 3f 06  76 f5 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  02 b7 7c 5d b5 20 60 12
@@ -2447,8 +2076,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 4e 40 00 80 06  02 0b 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b5 20 55 69 02 b8 50 10
@@ -2463,8 +2093,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 a3 0b 4f 40 00 80 06  00 8f 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b5 20 55 69 02 b8 50 18
@@ -2503,8 +2134,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 61 00 00 3f 06  76 f8 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  02 b8 7c 5d b6 9b 50 10
@@ -2519,8 +2151,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 8c 17 76 00 00 3f 06  76 7f 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  20 3d 7c 5b 6b 59 50 18
@@ -2541,8 +2174,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 6f 17 77 00 00 3f 06  76 9b 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  20 a1 7c 5b 6b 59 50 18
@@ -2561,8 +2195,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 51 40 00 80 06  02 08 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6b 59 55 61 20 e8 50 10
@@ -2577,8 +2212,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 aa 0b 52 40 00 80 06  00 85 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6b 59 55 61 20 e8 50 18
@@ -2617,8 +2253,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 78 00 00 3f 06  76 e1 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  20 e8 7c 5b 6c db 50 10
@@ -2633,8 +2270,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 8c 17 7c 00 00 3f 06  76 79 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  02 b8 7c 5d b6 9b 50 18
@@ -2655,8 +2293,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 70 17 7d 00 00 3f 06  76 94 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  03 1c 7c 5d b6 9b 50 18
@@ -2675,8 +2314,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 54 40 00 80 06  02 05 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b6 9b 55 69 03 64 50 10
@@ -2691,8 +2331,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 a5 0b 55 40 00 80 06  00 87 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b6 9b 55 69 03 64 50 18
@@ -2731,8 +2372,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 7e 00 00 3f 06  76 db 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  03 64 7c 5d b8 18 50 10
@@ -2747,8 +2389,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 8c 17 8e 00 00 3f 06  76 67 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  20 e8 7c 5b 6c db 50 18
@@ -2769,8 +2412,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 70 17 8f 00 00 3f 06  76 82 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  21 4c 7c 5b 6c db 50 18
@@ -2789,8 +2433,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 57 40 00 80 06  02 02 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6c db 55 61 21 94 50 10
@@ -2805,8 +2450,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 a6 0b 58 40 00 80 06  00 83 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6c db 55 61 21 94 50 18
@@ -2845,8 +2491,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 90 00 00 3f 06  76 c9 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  21 94 7c 5b 6e 59 50 10
@@ -2861,8 +2508,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 8c 17 94 00 00 3f 06  76 61 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  03 64 7c 5d b8 18 50 18
@@ -2883,8 +2531,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 6f 17 95 00 00 3f 06  76 7d 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  03 c8 7c 5d b8 18 50 18
@@ -2903,8 +2552,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 5a 40 00 80 06  01 ff 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b8 18 55 69 04 0f 50 10
@@ -2919,8 +2569,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 8c 17 9d 00 00 3f 06  76 58 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  21 94 7c 5b 6e 59 50 18
@@ -2941,8 +2592,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 6f 17 9e 00 00 3f 06  76 74 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  21 f8 7c 5b 6e 59 50 18
@@ -2961,59 +2613,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 5b 40 00 80 06  01 fe 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6e 59 55 61 22 3f 50 10
 42 6e 18 e5 00 00 
-
-ramec 102
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E5 24 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e5 24 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e5 24 93 af 62 34
-00 00 00 00 00 00 93 af  62 ed 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 103
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 20 ED B7 29 D7 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 20  ed b7 29 d7 08 06 00 01
-08 00 06 04 00 01 00 20  ed b7 29 d7 93 af 62 d9
-00 00 00 00 00 00 93 af  62 28 20 20 20 20 20 20
-20 20 20 20 20 20 20 20  20 20 20 20 
-
-ramec 104
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 60 97 15 B1 5F 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 60  97 15 b1 5f 00 25 e0 e0
-03 ff ff 00 22 00 11 00  00 00 00 ff ff ff ff ff
-ff 04 52 00 00 00 00 00  60 97 15 b1 5f 40 6c 00
-03 00 04 04 04 04 04 04  04 04 04 04 
-
-ramec 105
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 d5 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 106
 dlzka ramca poskytnuta pcap API - 500 B
@@ -3024,8 +2630,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 e6 0b 5c 40 00 80 06  62 59 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  87 1a 55 ec 6d c3 50 18
@@ -3068,8 +2675,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 e7 15 44 40 00 3d 06  9c 70 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  6d c3 7c 21 88 d8 50 18
@@ -3096,8 +2704,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 26 0b 5e 40 00 80 06  63 17 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  88 d8 55 ec 6e 82 50 18
@@ -3128,8 +2737,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 3d 15 4c 40 00 3d 06  9b 12 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  6e 82 7c 21 89 d6 50 18
@@ -3177,96 +2787,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 60 40 00 80 06  64 13 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  89 d6 55 ec 70 97 50 10
 3e c8 14 81 00 00 
-
-ramec 111
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 d0 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 112
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 22 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 113
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 114
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 115
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 47 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 116
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 117
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 67 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 118
 dlzka ramca poskytnuta pcap API - 62 B
@@ -3277,8 +2804,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0467
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 66 40 00 80 06  01 d7 93 af 62 ee 93 af
 63 3e 04 67 00 50 7c 82  fa f2 00 00 00 00 70 02
@@ -3293,8 +2821,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0467
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 30 00 00 40 00 3f 06  4e 3d 93 af 63 3e 93 af
 62 ee 00 50 04 67 d5 2e  34 2f 7c 82 fa f3 70 12
@@ -3309,8 +2838,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0467
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 68 40 00 80 06  01 dd 93 af 62 ee 93 af
 63 3e 04 67 00 50 7c 82  fa f3 d5 2e 34 30 50 10
@@ -3325,8 +2855,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0467
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 9b 0b 69 40 00 80 06  00 69 93 af 62 ee 93 af
 63 3e 04 67 00 50 7c 82  fa f3 d5 2e 34 30 50 18
@@ -3364,8 +2895,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0467
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 4e ba 40 00 3f 06  ff 8a 93 af 63 3e 93 af
 62 ee 00 50 04 67 d5 2e  34 30 7c 82 fc 66 50 10
@@ -3380,8 +2912,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0467
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 c9 4e bb 40 00 3f 06  fc e8 93 af 63 3e 93 af
 62 ee 00 50 04 67 d5 2e  34 30 7c 82 fc 66 50 18
@@ -3438,8 +2971,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0467
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 4e bc 40 00 3f 06  ff 88 93 af 63 3e 93 af
 62 ee 00 50 04 67 d5 2e  36 d1 7c 82 fc 66 50 11
@@ -3454,8 +2988,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0467
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 6b 40 00 80 06  01 da 93 af 62 ee 93 af
 63 3e 04 67 00 50 7c 82  fc 66 d5 2e 36 d2 50 10
@@ -3470,8 +3005,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.62
-TCP
 HTTP
+Zdrojovy port: 0467
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 6c 40 00 80 06  01 d9 93 af 62 ee 93 af
 63 3e 04 67 00 50 7c 82  fc 66 d5 2e 36 d2 50 11
@@ -3486,142 +3022,13 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.62
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0467
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 4e bd 40 00 3f 06  ff 87 93 af 63 3e 93 af
 62 ee 00 50 04 67 d5 2e  36 d2 7c 82 fc 67 50 10
 19 20 1f 87 00 00 00 00  00 00 00 00 
-
-ramec 128
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 129
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 00 C0 64 D5 C2 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 00  c0 64 d5 c2 00 25 e0 e0
-03 ff ff 00 22 00 11 00  00 00 00 ff ff ff ff ff
-ff 04 52 00 00 00 00 00  00 c0 64 d5 c2 40 08 00
-03 00 04 7b 00 00 93 af  62 a7 00 00 
-
-ramec 130
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 131
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 2D E0 0B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 00  c0 2d e0 0b 08 06 00 01
-08 00 06 04 00 01 00 00  c0 2d e0 0b 93 af 62 b0
-00 00 00 00 00 00 93 af  62 28 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 132
-dlzka ramca poskytnuta pcap API - 243 B
-dlzka ramca prenasaneho po mediu - 247 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 3F DC 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.184
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 3f dc 08 00 45 00
-00 e5 7d 39 00 00 80 11  cf b8 93 af 62 b8 93 af
-62 ff 00 8a 00 8a 00 d1  20 f0 11 0e 89 9b 93 af
-62 b8 00 8a 00 bb 00 00  20 45 45 44 43 44 41 44
-49 45 42 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 00 20 45 4c 45 4a 46
-47 46 45 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 42 4e 00 ff 53 4d 42
-25 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 11 00 00 21
-00 00 00 00 00 00 00 00  00 e8 03 00 00 00 00 00
-00 00 00 21 00 56 00 03  00 01 00 00 00 02 00 32
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 42 52 4f 57 53
-45 00 01 00 80 fc 0a 00  44 32 30 38 41 00 00 00
-00 00 00 00 00 00 00 00  05 00 01 90 02 02 0f 01
-55 aa 00 
-
-ramec 133
-dlzka ramca poskytnuta pcap API - 74 B
-dlzka ramca prenasaneho po mediu - 78 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 D7 80 C2 
-Cielova MAC adresa: 00 04 76 A4 E4 8C 
-IPv4
-zdrojova IP adresa: 147.175.98.238
-cielova IP adresa: 147.175.99.30
-UDP
-00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
-00 3c 0b 6d 00 00 80 11  41 d9 93 af 62 ee 93 af
-63 1e 04 68 00 35 00 28  7f e4 ff 09 01 00 00 01
-00 00 00 00 00 00 03 77  77 77 06 67 6f 6f 67 6c
-65 03 63 6f 6d 00 00 01  00 01 
-
-ramec 134
-dlzka ramca poskytnuta pcap API - 457 B
-dlzka ramca prenasaneho po mediu - 461 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: 00 00 C0 D7 80 C2 
-IPv4
-zdrojova IP adresa: 147.175.99.30
-cielova IP adresa: 147.175.98.238
-UDP
-00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
-01 bb 24 78 00 00 3f 11  68 4f 93 af 63 1e 93 af
-62 ee 00 35 04 68 01 a7  51 b8 ff 09 81 80 00 01
-00 02 00 09 00 09 03 77  77 77 06 67 6f 6f 67 6c
-65 03 63 6f 6d 00 00 01  00 01 03 77 77 77 06 67
-6f 6f 67 6c 65 03 63 6f  6d 00 00 05 00 01 00 00
-0e 10 00 17 03 77 77 77  06 67 6f 6f 67 6c 65 06
-61 6b 61 64 6e 73 03 6e  65 74 00 c0 3a 00 01 00
-01 00 00 00 81 00 04 d8  ef 3b 63 c0 45 00 02 00
-01 00 01 6c aa 00 05 02  7a 63 c0 45 c0 45 00 02
-00 01 00 01 6c aa 00 05  02 7a 66 c0 45 c0 45 00
-02 00 01 00 01 6c aa 00  05 02 7a 68 c0 45 c0 45
-00 02 00 01 00 01 6c aa  00 0f 07 6e 73 31 2d 31
-35 39 04 61 6b 61 6d c0  4c c0 45 00 02 00 01 00
-01 6c aa 00 07 04 75 73  65 32 c0 a8 c0 45 00 02
-00 01 00 01 6c aa 00 07  04 75 73 77 35 c0 a8 c0
-45 00 02 00 01 00 01 6c  aa 00 07 04 75 73 65 34
-c0 a8 c0 45 00 02 00 01  00 01 6c aa 00 08 05 61
-73 69 61 33 c0 a8 c0 45  00 02 00 01 00 01 6c aa
-00 07 04 61 2d 39 33 c0  45 c0 6d 00 01 00 01 00
-01 6c aa 00 04 3f f1 c7  32 c0 7e 00 01 00 01 00
-01 6c aa 00 04 3f d7 c6  4f c0 8f 00 01 00 01 00
-01 6c aa 00 04 3f d0 30  2a c0 a0 00 01 00 01 00
-01 6c aa 00 04 c1 6c 5b  9f c0 bb 00 01 00 01 00
-01 ae ce 00 04 3f d1 aa  88 c0 ce 00 01 00 01 00
-01 ae ce 00 04 3f f1 49  d6 c0 e1 00 01 00 01 00
-01 ae ce 00 04 50 43 43  b6 c0 f4 00 01 00 01 00
-01 6c aa 00 04 c1 6c 9a  09 c1 08 00 01 00 01 00
-01 6c aa 00 04 c1 6c 5b  5d 
 
 ramec 135
 dlzka ramca poskytnuta pcap API - 62 B
@@ -3632,8 +3039,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 0469
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 6e 40 00 80 06  e4 69 93 af 62 ee d8 ef
 3b 63 04 69 00 50 7c 93  34 03 00 00 00 00 70 02
@@ -3648,8 +3056,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0469
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 2c 1e 33 00 00 f6 06  9b a8 d8 ef 3b 63 93 af
 62 ee 00 50 04 69 14 2b  34 80 7c 93 34 04 60 12
@@ -3664,8 +3073,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 0469
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 70 40 00 80 06  e4 6f 93 af 62 ee d8 ef
 3b 63 04 69 00 50 7c 93  34 04 14 2b 34 81 50 10
@@ -3680,8 +3090,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 0469
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 e7 0b 71 40 00 80 06  e2 af 93 af 62 ee d8 ef
 3b 63 04 69 00 50 7c 93  34 04 14 2b 34 81 50 18
@@ -3724,8 +3135,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0469
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 32 1d 00 00 36 06  47 c3 d8 ef 3b 63 93 af
 62 ee 00 50 04 69 14 2b  34 81 7c 93 35 c3 50 10
@@ -3740,8 +3152,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0469
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 01 9a 34 76 00 00 36 06  43 f8 d8 ef 3b 63 93 af
 62 ee 00 50 04 69 14 2b  34 81 7c 93 35 c3 50 18
@@ -3779,8 +3192,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0469
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 3c 34 92 00 00 36 06  45 3a d8 ef 3b 63 93 af
 62 ee 00 50 04 69 14 2b  35 f3 7c 93 35 c3 50 18
@@ -3796,80 +3210,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 0469
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 73 40 00 80 06  e4 6c 93 af 62 ee d8 ef
 3b 63 04 69 00 50 7c 93  35 c3 14 2b 36 07 50 10
 3f 62 64 40 00 00 
-
-ramec 143
-dlzka ramca poskytnuta pcap API - 73 B
-dlzka ramca prenasaneho po mediu - 77 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 D7 80 C2 
-Cielova MAC adresa: 00 04 76 A4 E4 8C 
-IPv4
-zdrojova IP adresa: 147.175.98.238
-cielova IP adresa: 147.175.99.30
-UDP
-00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
-00 3b 0b 74 00 00 80 11  41 d3 93 af 62 ee 93 af
-63 1e 04 6a 00 35 00 27  17 ed c2 08 01 00 00 01
-00 00 00 00 00 00 03 77  77 77 06 67 6f 6f 67 6c
-65 02 73 6b 00 00 01 00  01 
-
-ramec 144
-dlzka ramca poskytnuta pcap API - 455 B
-dlzka ramca prenasaneho po mediu - 459 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: 00 00 C0 D7 80 C2 
-IPv4
-zdrojova IP adresa: 147.175.99.30
-cielova IP adresa: 147.175.98.238
-UDP
-00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
-01 b9 24 7a 00 00 3f 11  68 4f 93 af 63 1e 93 af
-62 ee 00 35 04 6a 01 a5  fc 4a c2 08 81 80 00 01
-00 02 00 09 00 09 03 77  77 77 06 67 6f 6f 67 6c
-65 02 73 6b 00 00 01 00  01 03 77 77 77 06 67 6f
-6f 67 6c 65 02 73 6b 00  00 05 00 01 00 00 0e 10
-00 17 03 77 77 77 06 67  6f 6f 67 6c 65 06 61 6b
-61 64 6e 73 03 6e 65 74  00 c0 38 00 01 00 01 00
-00 00 81 00 04 d8 ef 3b  63 c0 43 00 02 00 01 00
-01 6c aa 00 05 02 7a 63  c0 43 c0 43 00 02 00 01
-00 01 6c aa 00 05 02 7a  66 c0 43 c0 43 00 02 00
-01 00 01 6c aa 00 05 02  7a 68 c0 43 c0 43 00 02
-00 01 00 01 6c aa 00 0f  07 6e 73 31 2d 31 35 39
-04 61 6b 61 6d c0 4a c0  43 00 02 00 01 00 01 6c
-aa 00 07 04 75 73 65 32  c0 a6 c0 43 00 02 00 01
-00 01 6c aa 00 07 04 75  73 77 35 c0 a6 c0 43 00
-02 00 01 00 01 6c aa 00  07 04 75 73 65 34 c0 a6
-c0 43 00 02 00 01 00 01  6c aa 00 08 05 61 73 69
-61 33 c0 a6 c0 43 00 02  00 01 00 01 6c aa 00 07
-04 61 2d 39 33 c0 43 c0  6b 00 01 00 01 00 01 6c
-aa 00 04 3f f1 c7 32 c0  7c 00 01 00 01 00 01 6c
-aa 00 04 3f d7 c6 4f c0  8d 00 01 00 01 00 01 6c
-aa 00 04 3f d0 30 2a c0  9e 00 01 00 01 00 01 6c
-aa 00 04 c1 6c 5b 9f c0  b9 00 01 00 01 00 01 ae
-ce 00 04 3f d1 aa 88 c0  cc 00 01 00 01 00 01 ae
-ce 00 04 3f f1 49 d6 c0  df 00 01 00 01 00 01 ae
-ce 00 04 50 43 43 b6 c0  f2 00 01 00 01 00 01 6c
-aa 00 04 c1 6c 9a 09 c1  06 00 01 00 01 00 01 6c
-aa 00 04 c1 6c 5b 5d 
-
-ramec 145
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 146
 dlzka ramca poskytnuta pcap API - 62 B
@@ -3880,8 +3227,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 75 40 00 80 06  e4 62 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  81 33 00 00 00 00 70 02
@@ -3896,8 +3244,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 2c 6e 8b 00 00 f6 06  4b 50 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  d9 ab 7c 94 81 34 60 12
@@ -3912,8 +3261,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 77 40 00 80 06  e4 68 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  81 34 b4 4b d9 ac 50 10
@@ -3928,8 +3278,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 e1 0b 78 40 00 80 06  e2 ae 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  81 34 b4 4b d9 ac 50 18
@@ -3971,8 +3322,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 80 ca 00 00 36 06  f9 15 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  d9 ac 7c 94 82 ed 50 10
@@ -3987,8 +3339,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 84 fc 00 00 36 06  f2 cb d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  d9 ac 7c 94 82 ed 50 18
@@ -4036,8 +3389,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 85 00 00 00 36 06  f2 c7 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  db c4 7c 94 82 ed 50 18
@@ -4085,8 +3439,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 85 0c 00 00 36 06  f2 bb d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  dd dc 7c 94 82 ed 50 18
@@ -4134,8 +3489,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 7a 40 00 80 06  e4 65 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  82 ed b4 4b df f4 50 10
@@ -4150,8 +3506,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 e3 97 90 00 00 36 06  e1 94 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  df f4 7c 94 82 ed 50 18
@@ -4178,24 +3535,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 7b 40 00 80 06  e4 64 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  82 ed b4 4b e0 af 50 10
 40 2d cb 7e 00 00 
-
-ramec 157
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 158
 dlzka ramca poskytnuta pcap API - 60 B
@@ -4206,8 +3552,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0466
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 c0 00 00 3f 06  76 99 93 af 63 2a 93 af
 62 ee 00 50 04 66 55 69  04 0f 7c 5d b8 18 50 11
@@ -4222,8 +3569,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 7c 40 00 80 06  01 dd 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b8 18 55 69 04 10 50 10
@@ -4238,8 +3586,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.99.42
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0465
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 17 cc 00 00 3f 06  76 8d 93 af 63 2a 93 af
 62 ee 00 50 04 65 55 61  22 3f 7c 5b 6e 59 50 11
@@ -4254,751 +3603,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 7d 40 00 80 06  01 dc 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6e 59 55 61 22 40 50 10
 42 6e 18 e4 00 00 
-
-ramec 162
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 163
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 04 75 7F AB 51 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  75 7f ab 51 00 25 e0 e0
-03 ff ff 00 22 00 11 00  00 00 00 ff ff ff ff ff
-ff 04 52 00 00 00 00 00  04 75 7f ab 51 40 70 00
-01 00 04 00 00 00 00 00  00 00 00 00 
-
-ramec 164
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 03 0c
-30 30 38 30 37 37 33 33  38 35 39 44 39 32 43 38
-42 52 4e 5f 33 33 38 35  39 44 5f 50 31 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 16 00 80 77 33  85 9d 40 0c 00 05 00 04
-4b 41 53 52 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 66 00 00 00 00  00 01 04 51 00 03 04 14
-53 48 41 5f 39 31 31 36  32 35 00 4f 48 48 84 49
-00 00 00 00 00 0c 00 00  00 0c 00 04 a6 9e 00 00
-00 00 00 00 00 0c 00 00  00 0c 00 0b 49 2c 00 00
-00 00 00 49 00 40 af 6f  48 48 40 01 00 05 06 7b
-55 49 53 20 43 56 54 20  53 54 55 00 00 00 30 00
-00 00 30 00 00 00 68 f0  59 c1 00 00 00 00 70 7f
-3c c1 88 7d 3c c1 e8 00  52 c1 00 00 00 00 00 00
-00 00 00 80 00 60 08 9d  ea c2 05 55 00 04 06 7b
-53 54 55 00 00 c0 30 00  00 00 30 00 00 00 30 00
-00 00 30 00 00 00 34 c8  06 c1 00 00 00 00 70 4f
-ee c0 fc 4a ee c0 e8 00  52 c1 00 00 00 00 00 00
-00 00 00 80 00 a0 24 57  f2 8d 05 55 00 04 01 07
-4e 4f 56 31 5f 4b 41 52  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-e0 12 50 10 00 00 00 00  00 01 81 04 00 03 01 07
-52 53 54 55 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 00 02 00 00 00 00  00 01 81 04 00 05 
-
-ramec 165
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 01 07
-43 56 54 2d 56 41 5a 31  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 01 12 00 00 00 00  00 01 81 04 00 05 02 78
-53 54 55 5f 43 48 54 46  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 4c 40 43 41 40 40 40  40 40 44 85 50 4a 00 00
-00 06 60 10 00 00 00 00  00 01 14 40 00 04 01 07
-53 56 46 5f 49 53 46 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 01 60 08 00 00 00 00  00 01 81 04 00 06 02 78
-46 45 49 53 54 55 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 87 a5 58 47 40 40 40  40 40 44 85 50 4a 00 00
-00 11 10 73 00 00 00 00  00 01 40 06 00 02 00 04
-46 41 53 54 55 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 03 20 60 00 00 00 00  00 01 04 51 00 04 01 07
-4b 4d 41 54 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 64 00 00 00 00  00 01 81 04 00 03 06 7b
-56 53 00 00 00 00 30 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 c0 bc  4f c1 00 00 00 00 70 7f
-46 d4 78 7d 46 d4 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 60 08 17  dc 02 05 55 00 04 
-
-ramec 166
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 00 04
-54 42 42 33 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 03 9c 0b 00 00 00 00  00 01 04 51 00 05 00 04
-54 42 42 35 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 03 9c 0e 00 00 00 00  00 01 04 51 00 06 00 04
-54 42 42 30 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-0b 7e 15 8d 00 00 00 00  00 01 04 51 00 06 00 04
-54 42 42 41 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 39 a0 0a 00 00 00 00  00 01 04 51 00 06 00 04
-54 42 42 31 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 03 20 11 00 00 00 00  00 01 04 51 00 05 02 78
-52 45 4b 54 4f 52 41 54  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 50 44 9d 40 40 40 40  40 40 44 85 50 4a 00 00
-00 08 01 07 00 00 00 00  00 01 40 06 00 04 02 6b
-4b 41 52 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-db 8a a5 42 41 40 40 40  40 40 44 85 50 4a 00 00
-e0 12 50 10 00 00 00 00  00 01 00 05 00 03 
-
-ramec 167
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 02 78
-54 4b 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-9c 4c f1 49 45 40 40 40  40 40 44 85 50 4a 00 00
-37 86 3d 51 00 00 00 00  00 01 40 06 00 05 02 78
-54 4b 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-4b f7 d0 e3 48 40 40 40  40 40 44 85 50 4a 00 00
-0b 7e 15 8d 00 00 00 00  00 01 07 40 00 06 00 4b
-42 53 45 52 34 2e 30 30  2d 37 2e 30 30 5f 30 42
-37 45 31 35 38 44 30 30  30 30 30 30 30 30 30 30
-30 31 30 30 30 30 00 00  00 00 00 00 00 00 00 00
-0b 7e 15 8d 00 00 00 00  00 01 80 59 00 06 02 78
-54 4b 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 ed 40 d0 40 40 40 40  40 40 44 85 50 4a 00 00
-00 39 a0 0a 00 00 00 00  00 01 10 40 00 06 02 78
-54 4b 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 46 40 49 41 40 40 40  40 40 44 85 50 4a 00 00
-00 03 20 11 00 00 00 00  00 01 40 06 00 05 04 14
-53 48 41 5f 42 30 37 35  31 35 2d 48 54 4d 4c 00
-ff ff 00 00 00 02 00 0c  e1 dc 00 0b 82 50 00 0b
-82 58 00 0b 82 54 00 00  15 84 00 00 15 50 ff 00
-00 00 00 80 00 40 af 7b  b5 fb 40 02 00 04 06 7b
-45 4b 4f 4e 4f 4d 00 00  09 c0 78 00 00 00 30 00
-00 00 30 00 00 00 b0 02  92 c2 00 00 00 00 70 ef
-fa c0 88 ed fa c0 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 04 75 72  75 4b 05 55 00 04 
-
-ramec 168
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 06 4e
-4b 54 45 45 2d 4d 41 47  4e 45 54 49 43 49 21 41
-35 35 36 39 42 32 30 41  42 45 35 31 31 43 45 39
-43 41 34 30 30 30 30 34  43 37 36 32 38 33 32 00
-30 11 80 00 00 50 04 1b  d5 f5 40 58 00 03 06 7b
-4b 4d 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-30 10 60 00 52 54 ab 13  a0 c8 05 55 00 03 03 0c
-30 30 36 30 42 30 31 31  44 34 36 34 30 32 43 47
-50 52 49 4e 54 4b 4f 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-e0 12 50 00 00 60 b0 11  d4 64 40 0c 00 03 03 0c
-30 38 30 30 30 39 34 44  39 42 39 41 38 32 38 44
-4e 50 49 34 44 39 42 39  41 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-e0 09 60 00 08 00 09 4d  9b 9a 40 0c 00 03 06 7b
-53 4f 00 00 00 00 30 00  0a c0 78 00 00 00 30 00
-00 00 30 00 00 00 80 fd  4a c1 00 00 00 00 70 cf
-78 c5 78 cd 78 c5 74 00  92 c2 00 00 00 00 00 00
-00 00 00 32 52 54 ab 16  53 8f 05 55 00 04 02 78
-57 45 45 4b 45 4e 44 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 48 44 44 46 40 40 40  40 40 44 85 50 4a 00 00
-00 04 81 60 00 00 00 00  00 01 06 40 00 05 01 07
-46 41 53 54 55 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 03 20 60 00 00 00 00  00 01 81 04 00 04 
-
-ramec 169
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 03 0c
-30 30 30 31 45 36 35 33  32 42 35 42 38 32 44 47
-4e 50 49 35 33 32 42 35  42 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 64 00 01 e6 53  2b 5b 40 0c 00 04 06 7b
-50 55 42 4c 49 43 00 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 a0 97  b2 ed 00 00 00 00 70 9f
-a5 ee 78 9d a5 ee 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 04 75 e4  2b ef 05 55 00 04 01 07
-54 42 42 41 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 39 a0 0a 00 00 00 00  00 01 81 04 00 06 06 7b
-49 43 56 00 00 00 30 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 60 9c  4e c1 00 00 00 00 70 cf
-67 d8 78 cd 67 d8 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 04 75 72  55 67 05 55 00 04 02 6b
-53 54 55 5f 43 48 54 46  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 4c 40 43 41 40 40 40  40 40 44 85 50 4a 00 00
-00 06 60 10 00 00 00 00  00 01 00 1b 00 04 02 6b
-46 45 49 53 54 55 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 87 a5 58 47 40 40 40  40 40 44 85 50 4a 00 00
-00 11 10 73 00 00 00 00  00 01 00 05 00 02 01 42
-4e 45 54 48 41 53 50 5f  31 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 62 00 00 00 00  00 01 40 05 00 03 
-
-ramec 170
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 06 7b
-49 4e 56 45 53 54 49 43  4e 45 00 00 00 00 30 00
-00 00 30 00 00 00 28 64  08 c1 00 00 00 00 70 ff
-ef c0 b8 fd ef c0 e8 00  52 c1 00 00 00 00 00 00
-00 00 00 80 00 a0 24 38  5a 70 05 55 00 04 01 42
-4e 45 54 48 41 53 50 5f  41 41 42 42 42 41 47 47
-41 41 43 4d 48 45 49 44  53 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 66 00 00 00 00  00 01 74 83 00 04 00 04
-55 49 53 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-0b 33 72 14 00 00 00 00  00 01 04 51 00 04 09 01
-50 43 34 4d 5f 54 42 42  41 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 39 a0 0a 00 00 00 00  00 01 8f 83 00 06 02 6b
-52 45 4b 54 4f 52 41 54  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 50 44 9d 40 40 40 40  40 40 44 85 50 4a 00 00
-00 08 01 07 00 00 00 00  00 01 00 05 00 04 02 78
-46 41 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 46 40 41 46 40 40 40  40 40 44 85 50 4a 00 00
-00 03 20 60 00 00 00 00  00 01 40 06 00 04 02 6b
-54 4b 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-4b f7 d0 e3 48 40 40 40  40 40 44 85 50 4a 00 00
-0b 7e 15 8d 00 00 00 00  00 01 00 1a 00 06 
-
-ramec 171
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 04 14
-53 48 41 5f 39 31 31 36  32 35 2d 48 54 4d 4c 00
-ff ff 00 00 00 02 00 0d  17 28 00 0b 59 bc 00 0b
-59 c4 00 0b 59 c0 00 00  15 84 00 00 15 50 ff 00
-00 00 00 49 00 40 af 6f  48 48 40 03 00 05 06 0c
-41 58 49 53 35 36 30 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  23 30 30 35 33 30 30 00
-00 00 03 9a 00 40 8c 3f  63 69 41 14 00 06 03 7e
-50 43 33 4d 5f 48 45 52  4f 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 62 00 00 00 00  00 01 8b 83 00 03 06 0c
-41 58 49 53 35 36 30 30  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  23 30 30 38 36 30 30 00
-00 00 03 9a 00 40 8c 3f  3a a2 41 14 00 06 00 47
-4b 41 53 52 5f 50 52 49  4e 54 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 66 00 00 00 00  00 01 80 60 00 04 03 0c
-30 30 30 31 45 36 38 34  44 46 37 30 38 32 44 44
-4e 50 49 38 34 44 46 37  30 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 85 00 01 e6 84  df 70 40 0c 00 05 06 7b
-45 4e 45 52 47 45 54 49  00 c0 78 00 00 00 30 00
-00 00 30 00 00 00 50 7c  4d c1 00 00 00 00 70 bf
-22 c7 78 bd 22 c7 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 50 da 45  7c a6 05 55 00 04 
-
-ramec 172
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 03 d6
-21 4c 45 58 30 30 32 30  30 30 33 33 32 44 32 30
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 16 00 04 00 cc  b4 04 83 c2 00 05 02 6b
-57 45 45 4b 45 4e 44 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 48 44 44 46 40 40 40  40 40 44 85 50 4a 00 00
-00 04 81 60 00 00 00 00  00 01 00 0e 00 05 06 7b
-56 45 44 45 4e 49 45 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 50 3a  44 c1 00 00 00 00 70 3f
-ea c8 78 3d ea c8 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 00 e8 eb  fd 0f 05 55 00 04 01 07
-55 49 53 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-0b 33 72 14 00 00 00 00  00 01 81 04 00 04 04 14
-53 48 41 5f 42 30 37 35  31 35 2d 57 39 35 5f 50
-45 45 52 5f 50 52 49 4e  54 45 52 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 80 00 40 af 7b  b5 fb 84 49 00 04 00 47
-53 43 31 31 39 35 31 34  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-30 12 10 00 00 c0 02 11  95 14 40 10 00 03 00 04
-44 45 4b 41 4e 41 54 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 73 00 00 00 00  00 01 04 51 00 02 
-
-ramec 173
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 00 47
-41 58 49 53 35 36 30 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 03 9a 00 40 8c 3f  63 69 80 60 00 06 00 47
-41 58 49 53 35 36 30 30  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 03 9a 00 40 8c 3f  3a a2 80 60 00 06 06 7b
-43 56 54 00 00 00 30 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 80 f1  fb d3 00 00 00 00 70 4f
-69 d8 78 4d 69 d8 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 04 76 e8  1d 1a 05 55 00 04 05 5e
-21 4c 45 58 30 30 32 30  30 30 30 43 44 42 36 33
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 16 00 04 00 30  db c6 83 c2 00 05 06 7b
-53 44 41 4a 31 00 30 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 c0 fb  4b c1 00 00 00 00 70 0f
-1a c9 78 0d 1a c9 74 00  92 c2 00 00 00 00 00 00
-00 00 00 10 00 01 02 94  1d 80 05 55 00 04 00 04
-42 4d 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-37 86 3d 51 00 00 00 00  00 01 04 51 00 05 02 6b
-46 41 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 46 40 41 46 40 40 40  40 40 44 85 50 4a 00 00
-00 03 20 60 00 00 00 00  00 01 00 05 00 04 
-
-ramec 174
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 00 04
-53 44 41 4a 31 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 01 01 00 00 00 00 00  00 01 04 51 00 04 00 47
-41 49 53 5f 50 53 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 01 07 00 00 00 00  00 01 80 60 00 04 02 78
-42 45 52 4e 4f 4c 41 4b  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 42 44 40 40 40 40 40  40 40 44 85 50 4a 00 00
-00 01 01 00 00 00 00 00  00 01 40 06 00 04 06 7b
-4d 41 4a 45 54 4f 4b 00  09 c0 78 00 00 00 30 00
-00 00 30 00 00 00 70 f6  55 d7 00 00 00 00 70 1f
-08 d8 c4 db 08 d8 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 02 1e f2  24 90 05 55 00 04 02 78
-43 56 54 49 5f 53 52 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 46 eb ef 40 40 40 40  40 40 44 85 50 4a 00 00
-00 03 9c 0e 00 00 00 00  00 01 40 06 00 06 00 4b
-42 53 45 52 34 2e 30 30  2d 36 2e 31 30 5f 30 30
-31 31 31 30 36 32 30 30  30 30 30 30 30 30 30 30
-30 31 30 30 30 30 00 00  00 00 00 00 00 00 00 00
-00 11 10 62 00 00 00 00  00 01 80 59 00 03 01 07
-44 45 4b 41 4e 41 54 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 73 00 00 00 00  00 01 81 04 00 02 
-
-ramec 175
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 02 78
-53 4a 4b 41 4d 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 50 40 4a 40 40 40 40  40 40 44 85 50 4a 00 00
-00 08 40 01 00 00 00 00  00 01 40 06 00 04 03 0c
-30 30 36 30 42 30 45 35  45 41 41 34 38 32 43 54
-4e 50 49 45 35 45 41 41  34 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 64 00 60 b0 e5  ea a4 40 0c 00 04 00 04
-48 45 52 4f 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 62 00 00 00 00  00 01 04 51 00 02 06 7b
-55 44 33 30 36 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 88 00 c0 d1 80  62 9f 05 55 00 05 06 7b
-50 52 41 56 4e 45 00 00  00 00 78 00 00 00 30 00
-00 00 30 00 00 00 b0 02  92 c2 00 00 00 00 70 ff
-fa c0 24 fe fa c0 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 04 75 72  68 92 05 55 00 04 00 04
-53 4a 4b 41 4d 2d 31 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 50 02 00 00 00 00  00 01 04 51 00 05 00 4b
-54 42 42 30 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-0b 7e 15 8d 00 00 00 00  00 01 80 5a 00 06 
-
-ramec 176
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 04 14
-53 48 41 5f 39 31 31 36  32 35 2d 57 39 35 5f 50
-45 45 52 5f 50 52 49 4e  54 45 52 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 49 00 40 af 6f  48 48 84 49 00 05 06 40
-57 2d 53 45 52 56 45 52  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 16 00 02 44 5f  65 8a 85 e8 00 05 00 04
-53 4c 4f 56 41 4b 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 13 00 09 00 00 00 00  00 01 04 51 00 04 82 02
-54 42 42 41 5f 42 52 4f  4b 45 52 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 39 a0 0a 00 00 00 00  00 01 90 b4 00 06 01 07
-42 4d 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-37 86 3d 51 00 00 00 00  00 01 81 04 00 05 00 47
-42 52 4e 5f 33 33 38 35  39 44 5f 50 31 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 16 00 80 77 33  85 9d 80 60 00 05 01 07
-53 44 41 4a 31 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 01 01 00 00 00 00 00  00 01 81 04 00 04 
-
-ramec 177
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 00 04
-53 4a 44 45 4b 41 4e 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 04 81 60 00 00 00 00  00 01 04 51 00 05 00 04
-41 49 53 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 01 07 00 00 00 00  00 01 04 51 00 04 00 04
-43 48 45 43 44 45 4b 31  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 06 60 10 00 00 00 00  00 01 04 51 00 04 06 40
-42 49 4c 49 4b 31 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-20 12 61 92 00 00 e8 78  3d df e8 85 00 03 06 40
-4f 52 41 43 4c 45 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 01 00 00 00 00  00 01 e8 85 00 02 01 07
-48 45 52 4f 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 62 00 00 00 00  00 01 81 04 00 03 06 0c
-41 58 49 53 56 53 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  23 30 31 30 37 30 30 00
-00 00 00 80 00 40 8c 3e  d9 41 41 14 00 04 
-
-ramec 178
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 02 6b
-42 45 52 4e 4f 4c 41 4b  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 42 44 40 40 40 40 40  40 40 44 85 50 4a 00 00
-00 01 01 00 00 00 00 00  00 01 00 05 00 04 06 7b
-41 4b 41 44 45 4d 00 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 c0 49  52 c1 00 00 00 00 70 ef
-fc c8 78 ed fc c8 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 01 02 10  04 43 05 55 00 04 82 02
-43 48 45 43 44 45 4b 31  5f 42 52 4f 4b 45 52 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 06 60 10 00 00 00 00  00 01 90 b4 00 04 02 6b
-43 56 54 49 5f 53 52 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 46 eb ef 40 40 40 40  40 40 44 85 50 4a 00 00
-00 03 9c 0e 00 00 00 00  00 01 00 05 00 06 02 6b
-53 4a 4b 41 4d 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-40 50 40 4a 40 40 40 40  40 40 44 85 50 4a 00 00
-00 08 40 01 00 00 00 00  00 01 00 05 00 04 06 7b
-56 59 44 41 56 41 54 45  4c 53 54 56 4f 00 30 00
-00 00 30 00 00 00 40 07  53 c1 00 00 00 00 70 0f
-29 c8 78 0d 29 c8 74 00  92 c2 00 00 00 00 00 00
-00 00 00 05 00 10 4b 47  b0 60 05 55 00 04 04 14
-53 48 41 5f 42 30 37 35  31 35 00 7b b5 fb 84 49
-00 00 00 00 00 0c 00 00  00 0c 00 04 a6 9e 00 00
-00 00 00 00 00 0c 00 00  00 0c 00 0b 49 2c 00 00
-00 00 00 80 00 40 af 7b  b5 fb 40 01 00 04 
-
-ramec 179
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 06 7b
-4b 4f 4e 54 52 4f 4c 41  00 00 78 00 00 00 30 00
-00 00 30 00 00 00 40 4e  ee c0 00 00 00 00 70 9f
-56 c4 78 9d 56 c4 70 00  12 c2 00 00 00 00 00 00
-00 00 00 80 00 00 c0 1b  d7 a8 05 55 00 04 01 07
-53 4a 44 45 4b 41 4e 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 04 81 60 00 00 00 00  00 01 81 04 00 05 01 07
-41 49 53 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 01 07 00 00 00 00  00 01 81 04 00 04 06 40
-4b 53 4d 45 2d 41 49 50  2d 31 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 16 00 50 bf 03  db 47 e8 85 00 05 00 04
-53 4a 4b 41 4d 2d 32 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 40 01 00 00 00 00  00 01 04 51 00 04 03 7e
-50 43 34 4d 5f 4e 4f 56  31 5f 4b 41 52 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-e0 12 50 10 00 00 00 00  00 01 8f 83 00 03 06 7b
-52 53 54 55 00 00 30 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 10 71  75 c1 00 00 00 00 70 4f
-36 d5 78 4d 36 d5 74 00  92 c2 00 00 00 00 00 00
-00 00 00 80 00 01 02 dc  16 8e 05 55 00 04 
-
-ramec 180
-dlzka ramca poskytnuta pcap API - 494 B
-dlzka ramca prenasaneho po mediu - 498 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 e0 ff ff
-01 e0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 06 7b
-46 45 49 53 54 55 44 00  00 00 30 00 00 00 30 00
-00 00 30 00 00 00 ac 83  0c c1 00 00 00 00 70 1f
-f7 c0 b8 1d f7 c0 e8 00  52 c1 00 00 00 00 00 00
-e0 11 00 00 00 60 08 54  02 eb 05 55 00 02 00 04
-4e 4f 56 31 5f 4b 41 52  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-e0 12 50 10 00 00 00 00  00 01 04 51 00 03 00 04
-52 53 54 55 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 00 02 00 00 00 00  00 01 04 51 00 04 02 78
-4b 41 52 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-db 8a a5 42 41 40 40 40  40 40 44 85 50 4a 00 00
-e0 12 50 10 00 00 00 00  00 01 40 06 00 03 00 04
-43 56 54 2d 56 41 5a 31  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 08 01 12 00 00 00 00  00 01 04 51 00 04 00 04
-53 56 46 5f 49 53 46 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 01 60 08 00 00 00 00  00 01 04 51 00 05 00 04
-4b 4d 41 54 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 11 10 64 00 00 00 00  00 01 04 51 00 02 
-
-ramec 181
-dlzka ramca poskytnuta pcap API - 430 B
-dlzka ramca prenasaneho po mediu - 434 B
-IEEE 802.3 - RAW
-Zdrojova MAC adresa je: 00 04 76 A4 E4 8C 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 01 a0 ff ff
-01 a0 00 04 30 09 80 00  ff ff ff ff ff ff 04 52
-30 09 80 00 00 04 76 a4  e4 8c 04 52 00 02 02 78
-55 49 53 5f 54 52 45 45  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-4b e1 c3 88 41 40 40 40  40 40 44 85 50 4a 00 00
-0b 33 72 14 00 00 00 00  00 01 06 40 00 04 06 7b
-50 52 45 56 41 44 5a 4b  41 00 30 00 00 00 30 00
-00 00 30 00 00 00 14 89  07 c1 00 00 00 00 70 ef
-ef c0 b8 ed ef c0 e8 00  52 c1 00 00 00 00 00 00
-00 00 00 80 00 60 08 06  d2 e0 05 55 00 04 00 04
-4b 52 45 2d 4d 41 52 53  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-93 af 7e a2 00 00 00 00  00 01 04 51 00 03 06 7b
-53 44 41 4a 00 00 30 00  00 00 78 00 00 00 30 00
-00 00 30 00 00 00 50 56  59 c1 00 00 00 00 70 8f
-c3 dd 78 8d c3 dd 74 00  92 c2 00 00 00 00 00 00
-00 00 00 10 00 04 3c ab  ff ee 05 55 00 04 06 7b
-4b 44 4f 53 00 00 30 00  08 c0 78 00 00 00 30 00
-00 00 30 00 00 00 b0 af  44 c1 00 00 00 00 70 0f
-e7 cf a8 6e e7 cf 74 00  92 c2 00 00 00 00 00 00
-00 00 00 16 00 50 fc 75  25 fa 05 55 00 05 06 0c
-41 58 49 53 33 45 44 39  33 41 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  5f 5f 5f 5f 5f 5f 5f 5f
-5f 5f 5f 5f 5f 5f 5f 5f  23 30 31 30 37 30 30 00
-20 12 61 60 00 40 8c 3e  d9 3a 41 14 00 03 
-
-ramec 182
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 1b 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 183
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 17 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 184
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 c7 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 185
 dlzka ramca poskytnuta pcap API - 54 B
@@ -5009,8 +3620,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0466
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 83 40 00 80 06  01 d6 93 af 62 ee 93 af
 63 2a 04 66 00 50 7c 5d  b8 18 60 50 fa 9b 50 04
@@ -5025,62 +3637,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.99.42
-TCP
 HTTP
+Zdrojovy port: 0465
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 84 40 00 80 06  01 d5 93 af 62 ee 93 af
 63 2a 04 65 00 50 7c 5b  6e 59 60 50 fa 9b 50 04
 00 00 78 13 00 00 
-
-ramec 187
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 b6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 188
-dlzka ramca poskytnuta pcap API - 114 B
-dlzka ramca prenasaneho po mediu - 118 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 04 75 7F B3 02 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  75 7f b3 02 00 64 e0 e0
-03 ff ff 00 60 00 04 30  09 80 00 ff ff ff ff ff
-ff 04 52 30 09 80 00 00  04 75 7f b3 02 40 10 00
-02 06 40 44 32 31 33 43  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 30 09 80 00 00  04 75 7f b3 02 e8 85 00
-01 18 
-
-ramec 189
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 52 54 AB 14 8B 15 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 52 54  ab 14 8b 15 00 25 e0 e0
-03 ff ff 00 22 00 11 00  00 00 00 ff ff ff ff ff
-ff 04 52 00 00 00 00 52  54 ab 14 8b 15 40 28 00
-01 00 04 20 20 20 20 20  20 20 20 20 
-
-ramec 190
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 191
 dlzka ramca poskytnuta pcap API - 60 B
@@ -5091,8 +3654,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 147.175.1.16
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 0463
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 18 a2 40 00 3d 06  99 d1 93 af 01 10 93 af
 62 ee 00 50 04 63 55 ec  70 97 7c 21 89 d6 50 11
@@ -5107,60 +3671,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 85 40 00 80 06  63 ee 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  89 d6 55 ec 70 98 50 10
 3e c8 14 80 00 00 
-
-ramec 193
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 c7 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 194
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 75 7F B0 AA 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  75 7f b0 aa 08 06 00 01
-08 00 06 04 00 01 00 04  75 7f b0 aa 93 af 62 d4
-00 00 00 00 00 00 93 af  62 28 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 195
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 21 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 196
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 69 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 197
 dlzka ramca poskytnuta pcap API - 54 B
@@ -5171,223 +3688,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 147.175.1.16
-TCP
 HTTP
+Zdrojovy port: 0463
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 86 40 00 80 06  63 ed 93 af 62 ee 93 af
 01 10 04 63 00 50 7c 21  89 d6 55 ec 70 98 50 04
 00 00 53 54 00 00 
-
-ramec 198
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 c7 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 199
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 A0 24 2D 76 5C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 a0  24 2d 76 5c 08 06 00 01
-08 00 06 04 00 01 00 a0  24 2d 76 5c 93 af 62 af
-00 00 00 00 00 00 93 af  62 01 01 01 01 01 01 01
-01 01 01 01 01 01 01 01  01 01 01 01 
-
-ramec 200
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 A0 24 2D 76 5C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 a0  24 2d 76 5c 08 06 00 01
-08 00 06 04 00 01 00 a0  24 2d 76 5c 93 af 62 af
-00 00 00 00 00 00 93 af  62 b2 b2 b2 b2 b2 b2 b2
-b2 b2 b2 b2 b2 b2 b2 b2  b2 b2 b2 b2 
-
-ramec 201
-dlzka ramca poskytnuta pcap API - 251 B
-dlzka ramca prenasaneho po mediu - 255 B
-Ethernet II
-Zdrojova MAC adresa: 00 20 ED B7 29 D7 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.217
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 20  ed b7 29 d7 08 00 45 00
-00 ed c0 01 00 00 80 11  8c c7 93 af 62 d9 93 af
-62 ff 00 8a 00 8a 00 d9  95 a4 11 02 00 48 93 af
-62 d9 00 8a 00 c3 00 00  20 45 49 46 43 45 4a 45
-44 45 50 46 47 45 42 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 41  41 00 20 45 4c 45 4a 46
-47 46 45 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 42 4e 00 ff 53 4d 42
-25 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 11 00 00 29
-00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 29 00 56 00 03  00 01 00 01 00 02 00 3a
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 42 52 4f 57 53
-45 00 01 14 a0 bb 0d 00  48 52 49 43 4f 56 41 00
-00 00 00 00 00 00 00 00  04 00 03 20 41 00 15 04
-55 aa 4b 4e 49 5a 4e 49  43 41 00 
-
-ramec 202
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 69 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 203
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 204
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 205
-dlzka ramca poskytnuta pcap API - 87 B
-dlzka ramca prenasaneho po mediu - 91 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 D7 80 C2 
-Cielova MAC adresa: 00 04 76 A4 E4 8C 
-IPv4
-zdrojova IP adresa: 147.175.98.238
-cielova IP adresa: 147.175.99.30
-UDP
-00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
-00 49 0b 8c 00 00 80 11  41 ad 93 af 62 ee 93 af
-63 1e 04 47 00 35 00 35  4c 26 31 51 01 00 00 01
-00 00 00 00 00 00 03 31  37 35 02 39 38 03 31 37
-35 03 31 34 37 07 69 6e  2d 61 64 64 72 04 61 72
-70 61 00 00 0c 00 01 
-
-ramec 206
-dlzka ramca poskytnuta pcap API - 172 B
-dlzka ramca prenasaneho po mediu - 176 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: 00 00 C0 D7 80 C2 
-IPv4
-zdrojova IP adresa: 147.175.99.30
-cielova IP adresa: 147.175.98.238
-UDP
-00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
-00 9e 24 b6 00 00 3f 11  69 2e 93 af 63 1e 93 af
-62 ee 00 35 04 47 00 8a  1a c3 31 51 85 83 00 01
-00 00 00 01 00 00 03 31  37 35 02 39 38 03 31 37
-35 03 31 34 37 07 69 6e  2d 61 64 64 72 04 61 72
-70 61 00 00 0c 00 01 02  39 38 03 31 37 35 03 31
-34 37 07 49 4e 2d 41 44  44 52 04 41 52 50 41 00
-00 06 00 01 00 00 54 60  00 32 04 73 75 6e 31 03
-64 63 73 03 65 6c 66 05  73 74 75 62 61 02 73 6b
-00 04 72 6f 6f 74 c0 50  77 64 6d c0 00 01 51 80
-00 00 8c a0 00 12 75 00  00 00 54 60 
-
-ramec 207
-dlzka ramca poskytnuta pcap API - 119 B
-dlzka ramca prenasaneho po mediu - 123 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 04 75 7F AB 51 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  75 7f ab 51 00 69 e0 e0
-03 ff ff 00 66 00 14 00  00 00 00 ff ff ff ff ff
-ff 05 55 00 00 00 00 00  04 75 7f ab 51 05 55 92
-00 02 00 00 01 00 00 00  1e 05 01 44 31 31 32 41
-02 02 06 7d 04 03 4b 49  56 54 10 04 01 10 06 42
-52 57 53 00 00 04 75 06  00 01 00 00 00 02 00 2a
-a5 28 00 02 00 00 00 4b  49 56 54 00 77 00 82 00
-27 00 03 01 d4 0e 12 
-
-ramec 208
-dlzka ramca poskytnuta pcap API - 273 B
-dlzka ramca prenasaneho po mediu - 277 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-01 03 13 be 00 00 80 11  39 1c 93 af 62 b2 93 af
-62 ff 00 8a 00 8a 00 ef  8c 45 11 0e 80 1b 93 af
-62 b2 00 8a 00 d9 00 00  20 45 45 44 43 44 41 44
-49 45 43 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 41  41 00 20 45 4c 45 4a 46
-47 46 45 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 42 4d 00 ff 53 4d 42
-25 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 11 00 00 39
-00 00 00 00 00 00 00 00  00 e8 03 00 00 00 00 00
-00 00 00 39 00 5c 00 03  00 01 00 01 00 02 00 50
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 4e 45 54 5c 4e
-45 54 4c 4f 47 4f 4e 00  12 00 00 00 44 00 32 00
-30 00 38 00 42 00 00 00  00 00 5c 4d 41 49 4c 53
-4c 4f 54 5c 4e 45 54 5c  47 45 54 44 43 30 34 32
-00 00 00 00 00 00 00 00  00 0b 00 00 00 ff ff ff
-ff 
-
-ramec 209
-dlzka ramca poskytnuta pcap API - 273 B
-dlzka ramca prenasaneho po mediu - 277 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-01 03 13 c0 00 00 80 11  39 1a 93 af 62 b2 93 af
-62 ff 00 8a 00 8a 00 ef  8c 41 11 0e 80 1e 93 af
-62 b2 00 8a 00 d9 00 00  20 45 45 44 43 44 41 44
-49 45 43 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 41  41 00 20 45 4c 45 4a 46
-47 46 45 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 42 4d 00 ff 53 4d 42
-25 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 11 00 00 39
-00 00 00 00 00 00 00 00  00 e8 03 00 00 00 00 00
-00 00 00 39 00 5c 00 03  00 01 00 01 00 02 00 50
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 4e 45 54 5c 4e
-45 54 4c 4f 47 4f 4e 00  12 00 00 00 44 00 32 00
-30 00 38 00 42 00 00 00  00 00 5c 4d 41 49 4c 53
-4c 4f 54 5c 4e 45 54 5c  47 45 54 44 43 30 34 33
-00 00 00 00 00 00 00 00  00 0b 00 00 00 ff ff ff
-ff 
 
 ramec 210
 dlzka ramca poskytnuta pcap API - 589 B
@@ -5398,8 +3705,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 02 3f 0b 8d 40 00 80 06  e2 3b 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  82 ed b4 4b e0 af 50 18
@@ -5447,8 +3755,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 c3 69 00 00 36 06  b6 76 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e0 af 7c 94 85 02 50 10
@@ -5463,8 +3772,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 c5 2f 00 00 36 06  b4 b0 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e0 af 7c 94 85 04 50 10
@@ -5479,8 +3789,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 ca 17 00 00 36 06  ad b0 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e0 af 7c 94 85 04 50 18
@@ -5528,8 +3839,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 ca 1b 00 00 36 06  ad ac d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e2 c7 7c 94 85 04 50 18
@@ -5577,8 +3889,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 01 e9 ca 1e 00 00 36 06  ae 00 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e4 df 7c 94 85 04 50 18
@@ -5621,8 +3934,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 8f 40 00 80 06  e4 50 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  85 04 b4 4b e6 a0 50 10
@@ -5637,8 +3951,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 05 78 00 00 36 06  72 50 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e6 a0 7c 94 85 04 50 18
@@ -5686,8 +4001,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 05 81 00 00 36 06  72 47 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  e8 b8 7c 94 85 04 50 18
@@ -5735,8 +4051,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 05 84 00 00 36 06  72 44 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  ea d0 7c 94 85 04 50 18
@@ -5784,8 +4101,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 05 8b 00 00 36 06  72 3d d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  ec e8 7c 94 85 04 50 18
@@ -5833,8 +4151,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 91 40 00 80 06  e4 4e 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  85 04 b4 4b ef 00 50 10
@@ -5849,8 +4168,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 1a e5 00 00 36 06  5c e3 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  ef 00 7c 94 85 04 50 18
@@ -5898,8 +4218,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 40 1a ee 00 00 36 06  5c da d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  f1 18 7c 94 85 04 50 18
@@ -5947,8 +4268,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 01 78 1a f3 00 00 36 06  5d 9d d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  f3 30 7c 94 85 04 50 18
@@ -5984,112 +4306,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 93 40 00 80 06  e4 4c 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  85 04 b4 4b f4 80 50 10
 40 e8 b4 db 00 00 
-
-ramec 226
-dlzka ramca poskytnuta pcap API - 268 B
-dlzka ramca prenasaneho po mediu - 272 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-00 fe 13 d5 00 00 80 11  39 0a 93 af 62 b2 93 af
-62 ff 00 8a 00 8a 00 ea  23 11 11 0e 80 1f 93 af
-62 b2 00 8a 00 d4 00 00  20 45 45 44 43 44 41 44
-49 45 43 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 41  41 00 20 45 4c 45 4a 46
-47 46 45 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 41 41 00 ff 53 4d 42
-25 00 00 00 00 18 04 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 ff fe  00 00 00 00 11 00 00 30
-00 02 00 00 00 00 00 02  00 00 00 00 00 00 00 00
-00 60 00 30 00 60 00 03  00 01 00 00 00 02 00 4b
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 48 79 64 72 61
-4c 73 53 65 72 76 65 72  00 00 45 00 44 00 49 00
-53 00 43 00 20 00 3c 00  44 00 32 00 30 00 38 00
-42 00 3e 00 20 00 3c 00  30 00 30 00 30 00 30 00
-30 00 38 00 34 00 34 00  3e 00 00 00 
-
-ramec 227
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 37 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 228
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 229
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 230
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 10 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 231
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 232
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 233
 dlzka ramca poskytnuta pcap API - 478 B
@@ -6100,8 +4323,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 d0 0b 94 40 00 80 06  e2 a3 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  85 04 b4 4b f4 80 50 18
@@ -6142,8 +4366,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 4f 1c 00 00 36 06  2a c4 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  f4 80 7c 94 86 ac 50 10
@@ -6158,8 +4383,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 216.239.59.99
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046b
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 bd 51 79 00 00 36 06  27 d2 d8 ef 3b 63 93 af
 62 ee 00 50 04 6b b4 4b  f4 80 7c 94 86 ac 50 18
@@ -6174,34 +4400,6 @@ HTTP
 33 20 4e 6f 76 20 32 30  30 33 20 30 39 3a 30 32
 3a 32 33 20 47 4d 54 0d  0a 0d 0a 
 
-ramec 236
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 cf 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 237
-dlzka ramca poskytnuta pcap API - 79 B
-dlzka ramca prenasaneho po mediu - 83 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 D7 80 C2 
-Cielova MAC adresa: 00 04 76 A4 E4 8C 
-IPv4
-zdrojova IP adresa: 147.175.98.238
-cielova IP adresa: 147.175.99.30
-UDP
-00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
-00 41 0b 96 00 00 80 11  41 ab 93 af 62 ee 93 af
-63 1e 04 6c 00 35 00 2d  18 92 ad 0f 01 00 00 01
-00 00 00 00 00 00 03 77  77 77 0c 6c 75 78 2d 6e
-69 6a 6d 65 67 65 6e 02  6e 6c 00 00 01 00 01 
-
 ramec 238
 dlzka ramca poskytnuta pcap API - 54 B
 dlzka ramca prenasaneho po mediu - 64 B
@@ -6211,34 +4409,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 216.239.59.99
-TCP
 HTTP
+Zdrojovy port: 046b
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 97 40 00 80 06  e4 48 93 af 62 ee d8 ef
 3b 63 04 6b 00 50 7c 94  86 ac b4 4b f5 15 50 10
 40 53 b3 33 00 00 
-
-ramec 239
-dlzka ramca poskytnuta pcap API - 169 B
-dlzka ramca prenasaneho po mediu - 173 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: 00 00 C0 D7 80 C2 
-IPv4
-zdrojova IP adresa: 147.175.99.30
-cielova IP adresa: 147.175.98.238
-UDP
-00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
-00 9b 24 ca 00 00 3f 11  69 1d 93 af 63 1e 93 af
-62 ee 00 35 04 6c 00 87  02 d8 ad 0f 85 80 00 01
-00 01 00 02 00 02 03 77  77 77 0c 6c 75 78 2d 6e
-69 6a 6d 65 67 65 6e 02  6e 6c 00 00 01 00 01 c0
-0c 00 01 00 01 00 01 51  80 00 04 d5 ef 82 82 c0
-10 00 02 00 01 00 03 f4  80 00 0e 01 61 02 6e 73
-06 73 75 61 72 65 73 c0  1d c0 10 00 02 00 01 00
-03 f4 80 00 04 01 62 c0  43 c0 41 00 01 00 01 00
-03 f4 80 00 04 d5 ef 82  82 c0 5b 00 01 00 01 00
-03 f4 80 00 04 d4 cc e3  63 
 
 ramec 240
 dlzka ramca poskytnuta pcap API - 62 B
@@ -6249,8 +4426,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b 98 40 00 80 06  a0 20 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  eb 8c 00 00 00 00 70 02
@@ -6265,8 +4443,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 30 00 00 40 00 35 06  f6 b8 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  72 72 7c dc eb 8d 70 12
@@ -6281,8 +4460,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b 9a 40 00 80 06  a0 26 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  eb 8d f3 5e 72 73 50 10
@@ -6297,8 +4477,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 ee 0b 9b 40 00 80 06  9e 5f 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  eb 8d f3 5e 72 73 50 18
@@ -6341,8 +4522,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 33 81 40 00 35 06  c3 3f d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  72 73 7c dc ed 53 50 10
@@ -6357,8 +4539,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 27 33 82 40 00 35 06  be 3f d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  72 73 7c dc ed 53 50 18
@@ -6453,8 +4636,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 a0 0b 9d 40 00 80 06  9e ab 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  ed 53 f3 5e 77 72 50 18
@@ -6492,8 +4676,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 03 da 33 83 40 00 35 06  bf 8b d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  77 72 7c dc ee cb 50 18
@@ -6558,18 +4743,6 @@ HTTP
 79 3e 0a 3c 2f 6e 6f 66  72 61 6d 65 73 3e 20 0a
 3c 2f 68 74 6d 6c 3e 0a  
 
-ramec 248
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
 ramec 249
 dlzka ramca poskytnuta pcap API - 476 B
 dlzka ramca prenasaneho po mediu - 480 B
@@ -6579,8 +4752,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 ce 0b 9f 40 00 80 06  9e 7b 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  ee cb f3 5e 7b 24 50 18
@@ -6621,8 +4795,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 30 0b a1 40 00 80 06  a0 17 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  ab 2b 00 00 00 00 70 02
@@ -6637,8 +4812,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 30 00 00 40 00 35 06  f6 b8 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 6f  ef c7 7c de ab 2c 70 12
@@ -6653,8 +4829,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b a3 40 00 80 06  a0 1d 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  ab 2c f3 6f ef c8 50 10
@@ -6669,8 +4846,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 d0 0b a4 40 00 80 06  9e 74 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  ab 2c f3 6f ef c8 50 18
@@ -6711,8 +4889,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 25 33 84 40 00 35 06  c1 3f d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  7b 24 7c dc f0 71 50 18
@@ -6759,8 +4938,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 ce 0b a6 40 00 80 06  9e 74 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f0 71 f3 5e 7d 21 50 18
@@ -6801,8 +4981,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 28 ad ce 40 00 35 06  48 f2 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 6f  ef c8 7c de ac d4 50 10
@@ -6817,8 +4998,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 e0 ad cf 40 00 35 06  46 39 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 6f  ef c8 7c de ac d4 50 18
@@ -6876,8 +5058,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 02 25 33 85 40 00 35 06  c1 3e d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  7d 21 7c dc f2 17 50 18
@@ -6915,18 +5098,6 @@ HTTP
 22 3e 0a 3c 2f 62 6f 64  79 3e 0a 3c 2f 68 74 6d
 6c 3e 0a 
 
-ramec 259
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 69 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
 ramec 260
 dlzka ramca poskytnuta pcap API - 470 B
 dlzka ramca prenasaneho po mediu - 474 B
@@ -6936,8 +5107,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 c8 0b a8 40 00 80 06  9e 78 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  ac d4 f3 6f f2 80 50 18
@@ -6978,8 +5150,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 cb 0b aa 40 00 80 06  9e 73 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f2 17 f3 5e 7f 1e 50 18
@@ -7020,8 +5193,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 03 e5 ad d0 40 00 35 06  45 33 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 6f  f2 80 7c de ae 74 50 18
@@ -7096,8 +5270,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 86 40 00 35 06  bd 86 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  7f 1e 7c dc f3 ba 50 10
@@ -7203,8 +5378,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 87 40 00 35 06  bd 85 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  84 d2 7c dc f3 ba 50 10
@@ -7310,8 +5486,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b ac 40 00 80 06  a0 14 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f3 ba f3 5e 8a 86 50 10
@@ -7326,8 +5503,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 01 c7 33 88 40 00 35 06  c1 99 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  8a 86 7c dc f3 ba 50 18
@@ -7368,8 +5546,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b ad 40 00 80 06  a0 13 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  ae 74 f3 6f f6 3d 50 10
@@ -7384,29 +5563,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b ae 40 00 80 06  a0 12 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f3 ba f3 5e 8c 25 50 10
 42 d1 29 1b 00 00 
-
-ramec 269
-dlzka ramca poskytnuta pcap API - 92 B
-dlzka ramca prenasaneho po mediu - 96 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-00 4e 16 f2 00 00 80 11  36 9d 93 af 62 b2 93 af
-62 ff 00 89 00 89 00 3a  4c c8 80 22 01 10 00 01
-00 00 00 00 00 00 20 45  45 44 43 44 41 44 49 45
-42 43 41 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 00  00 20 00 01 
 
 ramec 270
 dlzka ramca poskytnuta pcap API - 248 B
@@ -7417,8 +5580,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 ea 0b af 40 00 80 06  9f 4f 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  ae 74 f3 6f f6 3d 50 18
@@ -7445,8 +5609,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 27 0b b1 40 00 80 06  9f 10 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f3 ba f3 5e 8c 25 50 18
@@ -7477,8 +5642,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d1 40 00 35 06  43 3b d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 6f  f6 3d 7c de af 36 50 10
@@ -7584,8 +5750,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d2 40 00 35 06  43 3a d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 6f  fb f1 7c de af 36 50 10
@@ -7691,8 +5858,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b b3 40 00 80 06  a0 0d 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 01 a5 50 10
@@ -7707,8 +5875,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 00 77 33 8a 40 00 35 06  c2 e7 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  91 d9 7c dc f4 b9 50 18
@@ -7728,8 +5897,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b b4 40 00 80 06  a0 00 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f4 b9 f3 5e 8c 25 80 10
@@ -7745,8 +5915,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 89 40 00 35 06  bd 83 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  8c 25 7c dc f4 b9 50 10
@@ -7852,8 +6023,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b b5 40 00 80 06  a0 0b 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f4 b9 f3 5e 92 28 50 10
@@ -7868,8 +6040,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d3 40 00 35 06  43 39 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  01 a5 7c de af 36 50 10
@@ -7975,8 +6148,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d4 40 00 35 06  43 38 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  07 59 7c de af 36 50 10
@@ -8082,8 +6256,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d5 40 00 35 06  43 37 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  0d 0d 7c de af 36 50 10
@@ -8189,8 +6364,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b b6 40 00 80 06  a0 0a 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 12 c1 50 10
@@ -8205,8 +6381,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d6 40 00 35 06  43 36 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  12 c1 7c de af 36 50 10
@@ -8312,8 +6489,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d7 40 00 35 06  43 35 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  18 75 7c de af 36 50 10
@@ -8419,8 +6597,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d8 40 00 35 06  43 34 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  1e 29 7c de af 36 50 10
@@ -8526,8 +6705,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad d9 40 00 35 06  43 33 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  23 dd 7c de af 36 50 18
@@ -8633,8 +6813,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b b7 40 00 80 06  a0 09 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 29 91 50 10
@@ -8649,8 +6830,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad da 40 00 35 06  43 32 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  29 91 7c de af 36 50 18
@@ -8756,8 +6938,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad db 40 00 35 06  43 31 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  2f 45 7c de af 36 50 10
@@ -8863,8 +7046,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad dc 40 00 35 06  43 30 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  34 f9 7c de af 36 50 10
@@ -8970,8 +7154,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad dd 40 00 35 06  43 2f d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  3a ad 7c de af 36 50 10
@@ -9077,8 +7262,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b b8 40 00 80 06  a0 08 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 40 61 50 10
@@ -9093,8 +7279,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 38 0b b9 40 00 80 06  9e f7 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f4 b9 f3 5e 92 28 50 18
@@ -9126,8 +7313,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad df 40 00 35 06  43 2d d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  46 15 7c de af 36 50 18
@@ -9233,8 +7421,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e0 40 00 35 06  43 2c d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  4b c9 7c de af 36 50 10
@@ -9340,8 +7529,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e1 40 00 35 06  43 2b d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  51 7d 7c de af 36 50 10
@@ -9447,8 +7637,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e2 40 00 35 06  43 2a d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  57 31 7c de af 36 50 10
@@ -9554,8 +7745,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b bb 40 00 80 06  9f f9 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 40 61 80 10
@@ -9571,8 +7763,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b bc 40 00 80 06  9f f8 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 40 61 80 10
@@ -9588,8 +7781,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b bd 40 00 80 06  9f f7 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 40 61 80 10
@@ -9605,8 +7799,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b be 40 00 80 06  9f f6 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 40 61 80 10
@@ -9622,8 +7817,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 8b 40 00 35 06  bd 81 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  92 28 7c dc f5 c9 50 10
@@ -9729,8 +7925,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 8c 40 00 35 06  bd 80 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  97 dc 7c dc f5 c9 50 10
@@ -9836,8 +8033,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b bf 40 00 80 06  a0 01 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f5 c9 f3 5e 9d 90 50 10
@@ -9852,8 +8050,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e4 40 00 35 06  43 28 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  40 61 7c de af 36 50 10
@@ -9959,8 +8158,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b c0 40 00 80 06  a0 00 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 5c e5 50 10
@@ -9975,8 +8175,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 8d 40 00 35 06  bd 7f d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  9d 90 7c dc f5 c9 50 10
@@ -10082,8 +8283,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 8e 40 00 35 06  bd 7e d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  a3 44 7c dc f5 c9 50 10
@@ -10189,8 +8391,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 8f 40 00 35 06  bd 7d d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  a8 f8 7c dc f5 c9 50 10
@@ -10296,8 +8499,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b c1 40 00 80 06  9f ff 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f5 c9 f3 5e ae ac 50 10
@@ -10312,8 +8516,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 90 40 00 35 06  bd 7c d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  ae ac 7c dc f5 c9 50 10
@@ -10419,8 +8624,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 04 8c 33 91 40 00 35 06  be cb d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  b4 60 7c dc f5 c9 50 18
@@ -10505,24 +8711,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b c3 40 00 80 06  9f fd 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f5 c9 f3 5e b8 c4 50 10
 44 70 f8 cd 00 00 
-
-ramec 314
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 10 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
 ramec 315
 dlzka ramca poskytnuta pcap API - 54 B
@@ -10533,8 +8728,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b c4 40 00 80 06  9f fc 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 5c e5 50 10
@@ -10549,8 +8745,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 01 41 0b c6 40 00 80 06  9e e1 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f5 c9 f3 5e b8 c4 50 18
@@ -10582,8 +8779,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e5 40 00 35 06  43 27 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  5c e5 7c de af 36 50 18
@@ -10689,8 +8887,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 92 40 00 35 06  bd 7a d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  b8 c4 7c dc f6 e2 50 10
@@ -10796,8 +8995,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 93 40 00 35 06  bd 79 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  be 78 7c dc f6 e2 50 10
@@ -10903,8 +9103,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 04 c0 33 94 40 00 35 06  be 94 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  c4 2c 7c dc f6 e2 50 18
@@ -10992,8 +9193,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 95 40 00 35 06  bd 77 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  c8 c4 7c dc f6 e2 50 10
@@ -11099,45 +9301,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b c8 40 00 80 06  9f f8 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e ce 78 50 10
 44 70 e2 00 00 00 
-
-ramec 323
-dlzka ramca poskytnuta pcap API - 92 B
-dlzka ramca prenasaneho po mediu - 96 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-00 4e 16 f3 00 00 80 11  36 9c 93 af 62 b2 93 af
-62 ff 00 89 00 89 00 3a  4c c8 80 22 01 10 00 01
-00 00 00 00 00 00 20 45  45 44 43 44 41 44 49 45
-42 43 41 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 00  00 20 00 01 
-
-ramec 324
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8B 
-Cielova MAC adresa: 00 00 C0 D7 80 C2 
-IPv4
-zdrojova IP adresa: 147.175.98.40
-cielova IP adresa: 147.175.98.238
-TCP
-netbios-ssn
-00 00 c0 d7 80 c2 00 04  76 a4 e4 8b 08 00 45 00
-00 2c df 6e 40 00 40 06  6e e8 93 af 62 28 93 af
-62 ee 00 8b 04 08 75 32  5d fd 5f 25 5c 17 50 18
-1c 84 8e cf 00 00 85 00  00 00 00 00 
 
 ramec 325
 dlzka ramca poskytnuta pcap API - 1514 B
@@ -11148,8 +9318,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 96 40 00 35 06  bd 76 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  ce 78 7c dc f6 e2 50 10
@@ -11255,8 +9426,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 97 40 00 35 06  bd 75 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  d4 2c 7c dc f6 e2 50 10
@@ -11362,8 +9534,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 98 40 00 35 06  bd 74 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  d9 e0 7c dc f6 e2 50 10
@@ -11469,8 +9642,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 99 40 00 35 06  bd 73 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  df 94 7c dc f6 e2 50 10
@@ -11576,8 +9750,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b ca 40 00 80 06  9f f6 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 50 10
@@ -11592,8 +9767,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 9b 40 00 35 06  bd 71 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  ea fc 7c dc f6 e2 50 18
@@ -11699,8 +9875,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 9c 40 00 35 06  bd 70 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  f0 b0 7c dc f6 e2 50 10
@@ -11806,8 +9983,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 9d 40 00 35 06  bd 6f d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  f6 64 7c dc f6 e2 50 10
@@ -11913,8 +10091,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 9e 40 00 35 06  bd 6e d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  fc 18 7c dc f6 e2 50 10
@@ -12020,8 +10199,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b cb 40 00 80 06  9f e9 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 80 10
@@ -12037,8 +10217,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b cc 40 00 80 06  9f e8 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 80 10
@@ -12054,8 +10235,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b cd 40 00 80 06  9f e7 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 80 10
@@ -12071,8 +10253,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b ce 40 00 80 06  9f e6 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 80 10
@@ -12088,8 +10271,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b cf 40 00 80 06  9f e5 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 80 10
@@ -12105,8 +10289,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a0 40 00 35 06  bd 6c d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  07 80 7c dc f6 e2 50 10
@@ -12212,8 +10397,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a1 40 00 35 06  bd 6b d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  0d 34 7c dc f6 e2 50 10
@@ -12319,8 +10505,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a2 40 00 35 06  bd 6a d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5e  e5 48 7c dc f6 e2 50 10
@@ -12426,8 +10613,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 3c 0b d1 40 00 80 06  9f db 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 a0 10
@@ -12443,8 +10631,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 3c 0b d2 40 00 80 06  9f da 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5e e5 48 a0 10
@@ -12460,8 +10649,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b d3 40 00 80 06  9f e1 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 01 cc 80 10
@@ -12477,8 +10667,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a3 40 00 35 06  bd 69 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  12 e8 7c dc f6 e2 50 10
@@ -12584,8 +10775,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 34 0b d5 40 00 80 06  9f df 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 01 cc 80 10
@@ -12601,8 +10793,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a4 40 00 35 06  bd 68 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  01 cc 7c dc f6 e2 50 18
@@ -12708,28 +10901,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b d6 40 00 80 06  9f ea 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 18 9c 50 10
 44 70 97 dc 00 00 
-
-ramec 349
-dlzka ramca poskytnuta pcap API - 54 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 00 C0 D7 80 C2 
-Cielova MAC adresa: 00 04 76 A4 E4 8B 
-IPv4
-zdrojova IP adresa: 147.175.98.238
-cielova IP adresa: 147.175.98.40
-TCP
-netbios-ssn
-00 04 76 a4 e4 8b 00 00  c0 d7 80 c2 08 00 45 00
-00 28 0b d8 40 00 80 06  02 83 93 af 62 ee 93 af
-62 28 04 08 00 8b 5f 25  5c 17 75 32 5e 01 50 10
-42 1b ee 40 00 00 
 
 ramec 350
 dlzka ramca poskytnuta pcap API - 54 B
@@ -12740,8 +10918,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b d9 40 00 80 06  9f e7 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 62 99 50 10
@@ -12756,8 +10935,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a5 40 00 35 06  bd 67 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  18 9c 7c dc f6 e2 50 18
@@ -12863,8 +11043,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e6 40 00 35 06  43 26 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  62 99 7c de af 36 50 10
@@ -12970,8 +11151,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b db 40 00 80 06  9f e5 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 1e 50 50 10
@@ -12986,8 +11168,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b dc 40 00 80 06  9f e4 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 68 4d 50 10
@@ -13002,8 +11185,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a6 40 00 35 06  bd 66 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  1e 50 7c dc f6 e2 50 10
@@ -13109,8 +11293,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a7 40 00 35 06  bd 65 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  24 04 7c dc f6 e2 50 10
@@ -13216,8 +11401,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc ad e7 40 00 35 06  43 25 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  68 4d 7c de af 36 50 10
@@ -13323,8 +11509,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 04 f2 ad e8 40 00 35 06  44 0e d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  6e 01 7c de af 36 50 18
@@ -13416,8 +11603,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b dd 40 00 80 06  9f e3 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 29 b8 50 10
@@ -13432,8 +11620,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b de 40 00 80 06  9f e2 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 72 cb 50 10
@@ -13448,8 +11637,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a8 40 00 35 06  bd 64 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  29 b8 7c dc f6 e2 50 10
@@ -13555,8 +11745,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 a9 40 00 35 06  bd 63 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  2f 6c 7c dc f6 e2 50 10
@@ -13662,8 +11853,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 aa 40 00 35 06  bd 62 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  35 20 7c dc f6 e2 50 18
@@ -13769,8 +11961,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b df 40 00 80 06  9f e1 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 3a d4 50 10
@@ -13785,8 +11978,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 ab 40 00 35 06  bd 61 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  3a d4 7c dc f6 e2 50 10
@@ -13892,8 +12086,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 ac 40 00 35 06  bd 60 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  40 88 7c dc f6 e2 50 10
@@ -13999,8 +12194,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 ad 40 00 35 06  bd 5f d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  46 3c 7c dc f6 e2 50 10
@@ -14106,8 +12302,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 ae 40 00 35 06  bd 5e d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  4b f0 7c dc f6 e2 50 18
@@ -14213,8 +12410,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b e1 40 00 80 06  9f df 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 51 a4 50 10
@@ -14229,8 +12427,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 af 40 00 35 06  bd 5d d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  51 a4 7c dc f6 e2 50 10
@@ -14336,8 +12535,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b0 40 00 35 06  bd 5c d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  57 58 7c dc f6 e2 50 10
@@ -14443,8 +12643,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b1 40 00 35 06  bd 5b d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  5d 0c 7c dc f6 e2 50 10
@@ -14550,8 +12751,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b2 40 00 35 06  bd 5a d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  62 c0 7c dc f6 e2 50 10
@@ -14657,8 +12859,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b e3 40 00 80 06  9f dd 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 68 74 50 10
@@ -14673,8 +12876,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b3 40 00 35 06  bd 59 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  68 74 7c dc f6 e2 50 10
@@ -14780,8 +12984,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b4 40 00 35 06  bd 58 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  6e 28 7c dc f6 e2 50 18
@@ -14887,8 +13092,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b5 40 00 35 06  bd 57 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  73 dc 7c dc f6 e2 50 10
@@ -14994,8 +13200,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b6 40 00 35 06  bd 56 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  79 90 7c dc f6 e2 50 10
@@ -15101,8 +13308,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b e5 40 00 80 06  9f db 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 7f 44 50 10
@@ -15117,8 +13325,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b7 40 00 35 06  bd 55 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  7f 44 7c dc f6 e2 50 10
@@ -15224,8 +13433,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b8 40 00 35 06  bd 54 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  84 f8 7c dc f6 e2 50 18
@@ -15331,8 +13541,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 dc 33 b9 40 00 35 06  bd 53 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  8a ac 7c dc f6 e2 50 10
@@ -15438,8 +13649,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046d
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 03 ad 33 ba 40 00 35 06  bf 81 d5 ef 82 82 93 af
 62 ee 00 50 04 6d f3 5f  90 60 7c dc f6 e2 50 18
@@ -15510,56 +13722,13 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046d
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b e7 40 00 80 06  9f d9 93 af 62 ee d5 ef
 82 82 04 6d 00 50 7c dc  f6 e2 f3 5f 93 e5 50 10
 44 70 1c 93 00 00 
-
-ramec 385
-dlzka ramca poskytnuta pcap API - 92 B
-dlzka ramca prenasaneho po mediu - 96 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-00 4e 17 21 00 00 80 11  36 6e 93 af 62 b2 93 af
-62 ff 00 89 00 89 00 3a  4c c8 80 22 01 10 00 01
-00 00 00 00 00 00 20 45  45 44 43 44 41 44 49 45
-42 43 41 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 00  00 20 00 01 
-
-ramec 386
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 387
-dlzka ramca poskytnuta pcap API - 114 B
-dlzka ramca prenasaneho po mediu - 118 B
-IEEE 802.3 - IPX
-Zdrojova MAC adresa je: 00 04 76 13 97 DF 
-Cielova MAC adresa je: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 13 97 df 00 64 e0 e0
-03 ff ff 00 60 00 04 30  09 80 00 ff ff ff ff ff
-ff 04 52 30 09 80 00 00  04 76 13 97 df 40 10 00
-02 06 4e 45 4e 49 47 4d  41 21 21 21 21 21 21 21
-21 21 41 35 35 36 39 42  32 30 41 42 45 35 31 31
-43 45 39 43 41 34 30 30  30 30 34 43 37 36 32 38
-33 32 00 30 09 80 00 00  04 76 13 97 df 40 08 00
-01 54 
 
 ramec 388
 dlzka ramca poskytnuta pcap API - 261 B
@@ -15570,8 +13739,9 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 f7 0b e8 40 00 80 06  9f 09 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  af 36 f3 70 72 cb 50 18
@@ -15599,8 +13769,9 @@ Cielova MAC adresa: 00 00 C0 D7 80 C2
 IPv4
 zdrojova IP adresa: 213.239.130.130
 cielova IP adresa: 147.175.98.238
-TCP
 HTTP
+Zdrojovy port: 0050
+Cielovy port: 046e
 00 00 c0 d7 80 c2 00 04  76 a4 e4 8c 08 00 45 00
 05 1d ad e9 40 00 35 06  43 e2 d5 ef 82 82 93 af
 62 ee 00 50 04 6e f3 70  72 cb 7c de b0 05 50 18
@@ -15694,134 +13865,11 @@ Cielova MAC adresa: 00 04 76 A4 E4 8C
 IPv4
 zdrojova IP adresa: 147.175.98.238
 cielova IP adresa: 213.239.130.130
-TCP
 HTTP
+Zdrojovy port: 046e
+Cielovy port: 0050
 00 04 76 a4 e4 8c 00 00  c0 d7 80 c2 08 00 45 00
 00 28 0b ea 40 00 80 06  9f d6 93 af 62 ee d5 ef
 82 82 04 6e 00 50 7c de  b0 05 f3 70 77 c0 50 10
 3f 7b 84 76 00 00 
-
-ramec 391
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 392
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 16 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 393
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 394
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 395
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 10 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 396
-dlzka ramca poskytnuta pcap API - 268 B
-dlzka ramca prenasaneho po mediu - 272 B
-Ethernet II
-Zdrojova MAC adresa: 00 07 E9 4F 42 32 
-Cielova MAC adresa: FF FF FF FF FF FF 
-IPv4
-zdrojova IP adresa: 147.175.98.178
-cielova IP adresa: 147.175.98.255
-UDP
-ff ff ff ff ff ff 00 07  e9 4f 42 32 08 00 45 00
-00 fe 18 45 00 00 80 11  34 9a 93 af 62 b2 93 af
-62 ff 00 8a 00 8a 00 ea  0c 08 11 0e 80 23 93 af
-62 b2 00 8a 00 d4 00 00  20 45 45 44 43 44 41 44
-49 45 43 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 41  41 00 20 45 4c 45 4a 46
-47 46 45 43 41 43 41 43  41 43 41 43 41 43 41 43
-41 43 41 43 41 43 41 43  41 41 41 00 ff 53 4d 42
-25 00 00 00 00 18 04 00  00 00 00 00 00 00 00 00
-00 00 00 00 00 00 ff fe  00 00 00 00 11 00 00 30
-00 02 00 00 00 00 00 02  00 00 00 00 00 00 00 00
-00 60 00 30 00 60 00 03  00 01 00 00 00 02 00 4b
-00 5c 4d 41 49 4c 53 4c  4f 54 5c 48 79 64 72 61
-4c 73 53 65 72 76 65 72  00 00 00 05 44 00 49 00
-53 00 43 00 20 00 3c 00  44 00 32 00 30 00 38 00
-42 00 3e 00 20 00 3c 00  30 00 30 00 30 00 30 00
-30 00 35 00 64 00 63 00  3e 00 00 00 
-
-ramec 397
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 398
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 67 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ramec 399
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ARP
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
 
