@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpports.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tcpports.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603274100989</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="http filter funguje">
+      <created>1603285463816</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603285463816</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -253,6 +259,7 @@
     <MESSAGE value="Dokumentacia + mainOdovzdanie - finito len nemam diakritiku" />
     <MESSAGE value="Commit 2" />
     <MESSAGE value="Zacatie interaktivity prostredia fitrov" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zacatie interaktivity prostredia fitrov" />
+    <MESSAGE value="http filter funguje" />
+    <option name="LAST_COMMIT_MESSAGE" value="http filter funguje" />
   </component>
 </project>

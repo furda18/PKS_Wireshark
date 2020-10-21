@@ -275,6 +275,7 @@ def filter_pcap(file_name, filter_name):
                      file1.write(".")
              file1.write("\n")
 
+             file1.write("TCP\n")
              file1.write(filter_name + "\n")
 
              file1.write("Zdrojovy port: " + srcport+ "\n")
@@ -495,7 +496,7 @@ def filter_pcap(file_name, filter_name):
 ## TU SA SPUSTA FUNKCIA
 
 print("Vitaj vo Wiresharku 3000!\n")
-file_name = "trace-20.pcap"
+file_name = "trace-6.pcap"
 print("Zadaj cislo pre akciu: \n'1' - pre vypis vsetkych ramcov\n'2' - pre specificke komunikacie")
 akcia = str(input())
 # print("Zadaj cele meno pcap suboru co chces analyzovat: ")
@@ -505,10 +506,36 @@ if akcia=='1':
     process_pcap(file_name)
 
 if akcia=='2':
-    print("Zadaj ktoru komunikaciu chces vyfiltrovat: \n'1' - HTTP\n")
+    print("Zadaj ktoru komunikaciu chces vyfiltrovat: \n'1' - HTTP\n'2' - HTTPS\n'3' - TELNET\n'4' - SSH\n'5' - FTP-CONTROL\n'"
+          "6' - FTP-DATA\n'7' - TFTP\n'8' - ICMP\n'9' - ARP")
     komunikacia = str(input())
 
     if(komunikacia == '1'):
         filter_pcap(file_name, "HTTP")
+
+    if (komunikacia == '2'):
+        filter_pcap(file_name, "HTTPS")
+
+    if (komunikacia == '3'):
+        filter_pcap(file_name, "TELNET")
+
+    if (komunikacia == '4'):
+        filter_pcap(file_name, "SSH")
+
+    if (komunikacia == '5'):
+        filter_pcap(file_name, "FTP-CONTROL")
+
+    if (komunikacia == '6'):
+        filter_pcap(file_name, "FTP-DATA")
+
+    if (komunikacia == '7'):
+        filter_pcap(file_name, "TFTP")
+
+    if (komunikacia == '8'):
+        filter_pcap(file_name, "ICMP")
+
+    if (komunikacia == '9'):
+        filter_pcap(file_name, "ARP")
+
 
 
