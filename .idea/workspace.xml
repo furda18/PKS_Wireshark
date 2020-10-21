@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e207a65-be94-4306-ab93-a033587053ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/icmptypes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trace-26.pcap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
@@ -235,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603294341100</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="udp filter je uz komplet">
+      <created>1603300718515</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603300718515</updated>
+    </task>
+    <task id="LOCAL-00018" summary="aj icmp je komplet">
+      <created>1603300839835</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603300839835</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -278,6 +290,8 @@
     <MESSAGE value="http filter funguje" />
     <MESSAGE value="tcp filter by mal byt komplet" />
     <MESSAGE value="udp filter by mal byt komplet" />
-    <option name="LAST_COMMIT_MESSAGE" value="udp filter by mal byt komplet" />
+    <MESSAGE value="udp filter je uz komplet" />
+    <MESSAGE value="aj icmp je komplet" />
+    <option name="LAST_COMMIT_MESSAGE" value="aj icmp je komplet" />
   </component>
 </project>
