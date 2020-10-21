@@ -13,6 +13,11 @@ def process_pcap(file_name):
     file1 = open("hexramce.txt", "w")
     file1.write("Lets get it started in file: " + file_name + "\n")
     file1.close()
+
+    file1 = open("statistics.txt", "w")
+    file1.write("Statistics:\n")
+    file1.close()
+
     for (pkt_data, pkt_metadata,) in RawPcapReader(file_name):
         print("\n" + str(count) + "=> ")
 
@@ -77,6 +82,27 @@ def process_pcap(file_name):
                             if cislo != 6:
                                 file1.write(".")
                         file1.write("\n")
+
+                        #Tu len idem pocitat zdrojove a cielove adresy
+                        c = 0
+                        r = 0
+                        with open('statistics.txt', 'r') as file:
+                            # read a list of lines into data
+                            data = file.readlines()
+                            if(data == str(zdrojipdec)):
+                                r = c
+                                print("Nasiel som zhodnu Zrojovu Adresu")
+                            c+=1
+
+                        if i != 0:
+                            data[r] = str(zdrojipdec)
+                        # and write everything back
+                        with open('stats.txt', 'w') as file:
+                            file.writelines(data)
+                        file1 = open("statistics.txt", "a")
+                        file1.write("Statistics:\n")
+                        file1.close()
+
 
                         print("Protokol zistujem: ")
                         with open("protocols.txt") as protocols:
@@ -832,6 +858,8 @@ def filter_pcap_arp(file_name, filter_name):
                 file1.close()
 
         count += 1
+
+
 
 #########################################################################################################################################3
 ## TU SA SPUSTA FUNKCIA
