@@ -7,7 +7,7 @@
 0019 smtp
 0035 domain
 004f finger
-0050 http
+0050 HTTP
 006e pop3
 006f sunrpc
 0077 nntp

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e207a65-be94-4306-ab93-a033587053ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/filter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpports.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tcpports.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602705282170</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit 2">
+      <created>1603236905576</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603236905576</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -234,6 +245,7 @@
     <MESSAGE value="IPv6 implementovane s adresami plus interaktivita pri vstupe" />
     <MESSAGE value="mainOdovzdavaci - bez zakomentovaneho kodu" />
     <MESSAGE value="Dokumentacia + mainOdovzdanie - finito len nemam diakritiku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dokumentacia + mainOdovzdanie - finito len nemam diakritiku" />
+    <MESSAGE value="Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
 </project>
