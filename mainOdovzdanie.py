@@ -591,6 +591,14 @@ def filter_pcap_arp(file_name, filter_name):
     file1.write("Lets get it started in file: " + file_name + "\n")
     file1.close()
 
+    file2 = open("arpkomunikacie.txt", "w")
+    file2.write("ARP IP adresses\n")
+    file2.close()
+
+    rIPodosielatel = ""  # ten co prvy poslal
+    rIPprijimatel = ""  # ten co prvy dostal
+    rIP = rIPprijimatel + rIPodosielatel
+
     for (pkt_data, pkt_metadata,) in RawPcapReader(file_name):
 
         p = bytes_hex(pkt_data).decode("utf-8")
@@ -600,7 +608,7 @@ def filter_pcap_arp(file_name, filter_name):
         # ideme hladat vsetky UDP
         if (filter_name == "ARP"):
 
-            print("Ideme filtrovat vsetky ICMP konverzacie")
+            print("Ideme filtrovat vsetky ARP konverzacie")
             packet_type = p[24:28]
             print("Packet type is: " + packet_type)
 
@@ -613,6 +621,67 @@ def filter_pcap_arp(file_name, filter_name):
                 file1 = open("hexramce.txt", "a")
                 #file1.write("ramec " + str(count) + "\n")
                 if operation == "0001":
+
+                    ## KEBY TAM NECHCEL VZDY UVADZAT KOMUNIKACIU TAK TO LEN POSUNIEM
+                    #file1.write("Komunikacia c." + str(cislokom) + "\n")
+
+                    rIPodosielatel = ""  # ten co prvy poslal
+                    rIPprijimatel = ""  # ten co prvy dostal
+
+                    # file1.write("ARP-Request, ")
+                    # file1.write("IP adresa: ")
+                    for cislo in range(0, 8, 2):
+                        cielip = p[76 + cislo:78 + cislo]
+                        cielipdec = int(cielip, 16)
+                        #file1.write(str(cielipdec))
+                        rIPprijimatel += str(cielipdec)
+                    #     if cislo != 6:
+                    #         file1.write(".")
+                    # file1.write(", ")
+                    # file1.write("MAC adresa: ???")
+
+                    # file1.write("\nZdrojova IP: ")
+                    for cislo in range(0, 8, 2):
+                        cielip = p[56 + cislo:58 + cislo]
+                        cielipdec = int(cielip, 16)
+                        # file1.write(str(cielipdec))
+                        rIPodosielatel += str(cielipdec)
+                    #     if cislo != 6:
+                    #         file1.write(".")
+                    # file1.write(", ")
+
+                    # file1.write("Cielova IP: ")
+                    for cislo in range(0, 8, 2):
+                        cielip = p[76 + cislo:78 + cislo]
+                        cielipdec = int(cielip, 16)
+                        # file1.write(str(cielipdec))
+                        # if cislo != 6:
+                        #     file1.write(".")
+                    # file1.write("\n")
+
+                    rIP = rIPodosielatel + rIPprijimatel
+
+
+                    file2 = open("arpkomunikacie.txt", "a")
+                    with open("arpkomunikacie.txt") as arpkomunikacie:
+                        cislokom = 0
+                        zhoda = False
+                        for riadokarp in arpkomunikacie:
+                            riadokarp = riadokarp.rstrip()
+                            cislokom += 1
+                            if (riadokarp == rIP):
+                                zhoda = True
+                                continue
+
+                        if zhoda == False:
+                            file2.write(rIP + "\n")
+                            print("HNED som aj zapisal: " + rIP)
+
+
+                    file2.close()
+
+                    file1.write("Komunikacia c." + str(cislokom) + "\n")
+
                     file1.write("ARP-Request, ")
                     file1.write("IP adresa: ")
                     for cislo in range(0, 8, 2):
@@ -643,54 +712,124 @@ def filter_pcap_arp(file_name, filter_name):
                     file1.write("\n")
 
 
+                if operation == "0002":
 
+                    IPodosielatel = ""
+                    IPprijimatel = ""
+                    IP = IPodosielatel + IPprijimatel
 
+                    for cislo in range(0, 8, 2):
+                        cielip = p[76 + cislo:78 + cislo]
+                        cielipdec = int(cielip, 16)
+                        IPodosielatel += str(cielipdec)
 
-                    file1.write("ramec " + str(count) + "\n")
-                    api = ((len(p) + 1) // 2)
-                    medium = ((len(p) + 1) // 2) + 4
-                    if (api < 60):
-                        medium = 64
-                    file1.write("dlzka ramca poskytnuta pcap API - " + str(api) + " B\n")
-                    file1.write("dlzka ramca prenasaneho po mediu - " + str(medium) + " B\n")
+                    for cislo in range(0, 8, 2):
+                        cielip = p[56 + cislo:58 + cislo]
+                        cielipdec = int(cielip, 16)
+                        IPprijimatel += str(cielipdec)
 
-                    file1.write("Ethernet II\n")
-                    file1.write("ARP\n")
+                    IP = IPodosielatel + IPprijimatel
+                    print("IP odosielatel a prijimatel: " + IP)
 
-                    smac = p[12:24]
-                    file1.write("Zdrojova MAC adresa: ")
-                    for ch in range(0, len(smac), 2):
-                        file1.write(smac[ch].upper() + smac[ch + 1].upper() + " ")
-                        print()
-                    dmac = p[0:12]
-                    file1.write("\nCielova MAC adresa: ")
-                    for ch in range(0, len(dmac), 2):
-                        file1.write(dmac[ch].upper() + dmac[ch + 1].upper() + " ")
-                        print()
-                    file1.write("\n")
-
-
-
-                    counter = 0
-                    ## vypis celeho packetu
-                    for i in p:
-                        file1.write(i)
-                        # print(str(counter) + ". ")
-                        # print(i)
-                        if counter % 2 != 0 and counter != 0:
-                            if counter % 31 == 0:
-                                file1.write("\n")
-                                counter = 0
+                    with open("arpkomunikacie.txt") as arpkomunikacie:
+                        cislokom = 0
+                        zhoda = False
+                        for riadokarp in arpkomunikacie:
+                            riadokarp = riadokarp.rstrip()
+                            cislokom += 1
+                            print(riadokarp + " ?=? " + IP)
+                            if (riadokarp == IP):
+                                zhoda = True
                                 continue
-                            if counter % 15 == 0:
-                                file1.write("  ")
-                            else:
-                                file1.write(" ")
 
-                        counter += 1
+                        if zhoda == True:
+                            file1.write("Komunikacia c." + str(cislokom-1) + "\n")
 
-                    file1.write("\n\n")
-                    file1.close()
+                            file1.write("ARP-Reply, ")
+                            file1.write("IP adresa: ")
+                            for cislo in range(0, 8, 2):
+                                cielip = p[76 + cislo:78 + cislo]
+                                cielipdec = int(cielip, 16)
+                                file1.write(str(cielipdec))
+                                IPodosielatel += str(cielipdec)
+                                if cislo != 6:
+                                    file1.write(".")
+                            file1.write(", ")
+
+                            file1.write("MAC adresa: ")
+                            smacc = p[12:24]
+                            for ch in range(0, len(smacc), 2):
+                                file1.write(smacc[ch].upper() + smacc[ch + 1].upper() + " ")
+                               # print()
+
+
+                            file1.write("\nZdrojova IP: ")
+                            for cislo in range(0, 8, 2):
+                                cielip = p[56 + cislo:58 + cislo]
+                                cielipdec = int(cielip, 16)
+                                file1.write(str(cielipdec))
+                                IPprijimatel += str(cielipdec)
+
+                                if cislo != 6:
+                                    file1.write(".")
+                            file1.write(", ")
+
+                            file1.write("Cielova IP: ")
+                            for cislo in range(0, 8, 2):
+                                cielip = p[76 + cislo:78 + cislo]
+                                cielipdec = int(cielip, 16)
+                                file1.write(str(cielipdec))
+                                if cislo != 6:
+                                    file1.write(".")
+                            file1.write("\n")
+
+
+
+                file1.write("ramec " + str(count) + "\n")
+                api = ((len(p) + 1) // 2)
+                medium = ((len(p) + 1) // 2) + 4
+                if (api < 60):
+                    medium = 64
+                file1.write("dlzka ramca poskytnuta pcap API - " + str(api) + " B\n")
+                file1.write("dlzka ramca prenasaneho po mediu - " + str(medium) + " B\n")
+
+                file1.write("Ethernet II\n")
+                file1.write("ARP\n")
+
+                smac = p[12:24]
+                file1.write("Zdrojova MAC adresa: ")
+                for ch in range(0, len(smac), 2):
+                    file1.write(smac[ch].upper() + smac[ch + 1].upper() + " ")
+                    print()
+                dmac = p[0:12]
+                file1.write("\nCielova MAC adresa: ")
+                for ch in range(0, len(dmac), 2):
+                    file1.write(dmac[ch].upper() + dmac[ch + 1].upper() + " ")
+                    print()
+                file1.write("\n")
+
+
+
+                counter = 0
+                ## vypis celeho packetu
+                for i in p:
+                    file1.write(i)
+                    # print(str(counter) + ". ")
+                    # print(i)
+                    if counter % 2 != 0 and counter != 0:
+                        if counter % 31 == 0:
+                            file1.write("\n")
+                            counter = 0
+                            continue
+                        if counter % 15 == 0:
+                            file1.write("  ")
+                        else:
+                            file1.write(" ")
+
+                    counter += 1
+
+                file1.write("\n\n")
+                file1.close()
 
         count += 1
 
@@ -698,7 +837,7 @@ def filter_pcap_arp(file_name, filter_name):
 ## TU SA SPUSTA FUNKCIA
 
 print("Vitaj vo Wiresharku 3000!\n")
-file_name = "trace-20.pcap"
+file_name = "trace-26.pcap"
 print("Zadaj cislo pre akciu: \n'1' - pre vypis vsetkych ramcov\n'2' - pre specificke komunikacie")
 akcia = str(input())
 # print("Zadaj cele meno pcap suboru co chces analyzovat: ")

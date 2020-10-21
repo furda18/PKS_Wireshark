@@ -1,925 +1,240 @@
-Lets get it started in file: trace-20.pcap
-ARP-Request, IP adresa: 147.175.98.130, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.130
-ramec 13
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 82 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.115, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.115
-ramec 14
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 73 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.203, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.203
-ramec 15
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 cb 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.40, MAC adresa: ???
-Zdrojova IP: 147.175.98.208, Cielova IP: 147.175.98.40
-ramec 19
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 75 7F AB 51 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  75 7f ab 51 08 06 00 01
-08 00 06 04 00 01 00 04  75 7f ab 51 93 af 62 d0
-00 00 00 00 00 00 93 af  62 28 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.130, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.130
-ramec 20
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 82 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.140, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.140
-ramec 33
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 8c 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.115, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.115
-ramec 38
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 73 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.203, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.203
-ramec 39
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 cb 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.140, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.140
-ramec 40
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 8c 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.20, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.20
+Lets get it started in file: trace-26.pcap
+Komunikacia c.1
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
 ramec 41
+dlzka ramca poskytnuta pcap API - 42 B
+dlzka ramca prenasaneho po mediu - 64 B
+Ethernet II
+ARP
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
+Cielova MAC adresa: FF FF FF FF FF FF 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
+
+Komunikacia c.1
+ARP-Reply, IP adresa: 10.20.30.1, MAC adresa: 00 16 47 02 24 40 
+Zdrojova IP: 10.20.30.254, Cielova IP: 10.20.30.1
+ramec 42
 dlzka ramca poskytnuta pcap API - 60 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 14 00 00 00 00 00 00
+Zdrojova MAC adresa: 00 16 47 02 24 40 
+Cielova MAC adresa: 00 10 18 33 CF 44 
+00 10 18 33 cf 44 00 16  47 02 24 40 08 06 00 01
+08 00 06 04 00 02 00 16  47 02 24 40 0a 14 1e fe
+00 10 18 33 cf 44 0a 14  1e 01 00 00 00 00 00 00
 00 00 00 00 00 00 00 00  00 00 00 00 
 
-ARP-Request, IP adresa: 147.175.98.40, MAC adresa: ???
-Zdrojova IP: 147.175.98.229, Cielova IP: 147.175.98.40
-ramec 44
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.2
+ARP-Request, IP adresa: 10.20.30.1, MAC adresa: ???
+Zdrojova IP: 0.0.0.0, Cielova IP: 10.20.30.1
+ramec 94
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 52 54 AB 14 A0 59 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 52 54  ab 14 a0 59 08 06 00 01
-08 00 06 04 00 01 52 54  ab 14 a0 59 93 af 62 e5
-00 00 00 00 00 00 93 af  62 28 20 20 20 20 20 20
-20 20 20 20 20 20 20 20  20 20 20 20 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 00 00 00 00
+00 00 00 00 00 00 0a 14  1e 01 
 
-ARP-Request, IP adresa: 147.175.98.130, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.130
-ramec 45
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.3
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 95
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 82 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.81, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.81
-ramec 49
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.3
+ARP-Request, IP adresa: 10.20.30.1, MAC adresa: ???
+Zdrojova IP: 0.0.0.0, Cielova IP: 10.20.30.1
+ramec 96
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 51 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 00 00 00 00
+00 00 00 00 00 00 0a 14  1e 01 
 
-ARP-Request, IP adresa: 147.175.98.57, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.57
-ramec 60
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.3
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 97
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 39 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.140, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.140
-ramec 62
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.3
+ARP-Request, IP adresa: 10.20.30.1, MAC adresa: ???
+Zdrojova IP: 0.0.0.0, Cielova IP: 10.20.30.1
+ramec 107
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 8c 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 00 00 00 00
+00 00 00 00 00 00 0a 14  1e 01 
 
-ARP-Request, IP adresa: 147.175.98.119, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.119
-ramec 63
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.3
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 108
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 77 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.237, MAC adresa: ???
-Zdrojova IP: 147.175.98.52, Cielova IP: 147.175.98.237
-ramec 102
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.3
+ARP-Request, IP adresa: 10.20.30.1, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.1
+ramec 110
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E5 24 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e5 24 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e5 24 93 af 62 34
-00 00 00 00 00 00 93 af  62 ed 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e 01 
 
-ARP-Request, IP adresa: 147.175.98.40, MAC adresa: ???
-Zdrojova IP: 147.175.98.217, Cielova IP: 147.175.98.40
-ramec 103
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 20 ED B7 29 D7 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 20  ed b7 29 d7 08 06 00 01
-08 00 06 04 00 01 00 20  ed b7 29 d7 93 af 62 d9
-00 00 00 00 00 00 93 af  62 28 20 20 20 20 20 20
-20 20 20 20 20 20 20 20  20 20 20 20 
-
-ARP-Request, IP adresa: 147.175.98.213, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.213
-ramec 105
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 d5 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.208, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.208
-ramec 111
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 d0 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.34, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.34
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
 ramec 112
-dlzka ramca poskytnuta pcap API - 60 B
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 22 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.114, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.114
-ramec 113
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.222, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.222
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
 ramec 114
-dlzka ramca poskytnuta pcap API - 60 B
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.71, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.71
-ramec 115
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 125
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 47 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.114, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.114
-ramec 116
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 135
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.103, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.103
-ramec 117
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 148
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 67 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.222, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.222
-ramec 128
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 149
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.198, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.198
-ramec 130
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 158
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 
-ARP-Request, IP adresa: 147.175.98.40, MAC adresa: ???
-Zdrojova IP: 147.175.98.176, Cielova IP: 147.175.98.40
-ramec 131
-dlzka ramca poskytnuta pcap API - 60 B
+Komunikacia c.4
+ARP-Request, IP adresa: 10.20.30.254, MAC adresa: ???
+Zdrojova IP: 10.20.30.1, Cielova IP: 10.20.30.254
+ramec 166
+dlzka ramca poskytnuta pcap API - 42 B
 dlzka ramca prenasaneho po mediu - 64 B
 Ethernet II
 ARP
-Zdrojova MAC adresa: 00 00 C0 2D E0 0B 
+Zdrojova MAC adresa: 00 10 18 33 CF 44 
 Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 00  c0 2d e0 0b 08 06 00 01
-08 00 06 04 00 01 00 00  c0 2d e0 0b 93 af 62 b0
-00 00 00 00 00 00 93 af  62 28 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.198, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.198
-ramec 145
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.114, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.114
-ramec 157
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.222, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.222
-ramec 162
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.27, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.27
-ramec 182
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 1b 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.23, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.23
-ramec 183
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 17 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.199, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.199
-ramec 184
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 c7 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.182, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.182
-ramec 187
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 b6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.198, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.198
-ramec 190
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.199, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.199
-ramec 193
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 c7 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.40, MAC adresa: ???
-Zdrojova IP: 147.175.98.212, Cielova IP: 147.175.98.40
-ramec 194
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 75 7F B0 AA 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  75 7f b0 aa 08 06 00 01
-08 00 06 04 00 01 00 04  75 7f b0 aa 93 af 62 d4
-00 00 00 00 00 00 93 af  62 28 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.33, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.33
-ramec 195
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 21 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.105, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.105
-ramec 196
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 69 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.199, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.199
-ramec 198
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 c7 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.1, MAC adresa: ???
-Zdrojova IP: 147.175.98.175, Cielova IP: 147.175.98.1
-ramec 199
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 A0 24 2D 76 5C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 a0  24 2d 76 5c 08 06 00 01
-08 00 06 04 00 01 00 a0  24 2d 76 5c 93 af 62 af
-00 00 00 00 00 00 93 af  62 01 01 01 01 01 01 01
-01 01 01 01 01 01 01 01  01 01 01 01 
-
-ARP-Request, IP adresa: 147.175.98.178, MAC adresa: ???
-Zdrojova IP: 147.175.98.175, Cielova IP: 147.175.98.178
-ramec 200
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 A0 24 2D 76 5C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 a0  24 2d 76 5c 08 06 00 01
-08 00 06 04 00 01 00 a0  24 2d 76 5c 93 af 62 af
-00 00 00 00 00 00 93 af  62 b2 b2 b2 b2 b2 b2 b2
-b2 b2 b2 b2 b2 b2 b2 b2  b2 b2 b2 b2 
-
-ARP-Request, IP adresa: 147.175.98.105, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.105
-ramec 202
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 69 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.114, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.114
-ramec 203
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.222, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.222
-ramec 204
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.55, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.55
-ramec 227
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 37 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.61, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.61
-ramec 228
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.114, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.114
-ramec 229
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.16, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.16
-ramec 230
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 10 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.222, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.222
-ramec 231
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.198, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.198
-ramec 232
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.207, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.207
-ramec 236
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 cf 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.61, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.61
-ramec 248
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.105, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.105
-ramec 259
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 69 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.16, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.16
-ramec 314
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 10 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.198, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.198
-ramec 386
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.114, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.114
-ramec 391
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 72 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.22, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.22
-ramec 392
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 16 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.222, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.222
-ramec 393
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 de 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.61, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.61
-ramec 394
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.16, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.16
-ramec 395
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 10 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.198, MAC adresa: ???
-Zdrojova IP: 147.175.98.30, Cielova IP: 147.175.98.198
-ramec 397
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 E0 29 05 51 2B 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 e0  29 05 51 2b 08 06 00 01
-08 00 06 04 00 01 00 e0  29 05 51 2b 93 af 62 1e
-00 00 00 00 00 00 93 af  62 c6 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.103, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.103
-ramec 398
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 67 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
-
-ARP-Request, IP adresa: 147.175.98.61, MAC adresa: ???
-Zdrojova IP: 147.175.98.1, Cielova IP: 147.175.98.61
-ramec 399
-dlzka ramca poskytnuta pcap API - 60 B
-dlzka ramca prenasaneho po mediu - 64 B
-Ethernet II
-ARP
-Zdrojova MAC adresa: 00 04 76 A4 E4 8C 
-Cielova MAC adresa: FF FF FF FF FF FF 
-ff ff ff ff ff ff 00 04  76 a4 e4 8c 08 06 00 01
-08 00 06 04 00 01 00 04  76 a4 e4 8c 93 af 62 01
-00 00 00 00 00 00 93 af  62 3d 00 00 00 00 00 00
-00 00 00 00 00 00 00 00  00 00 00 00 
+ff ff ff ff ff ff 00 10  18 33 cf 44 08 06 00 01
+08 00 06 04 00 01 00 10  18 33 cf 44 0a 14 1e 01
+00 00 00 00 00 00 0a 14  1e fe 
 

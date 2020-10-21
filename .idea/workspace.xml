@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e207a65-be94-4306-ab93-a033587053ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/arpkomunikacie.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603300839835</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="arp request">
+      <created>1603304163495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603304163495</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -292,6 +300,7 @@
     <MESSAGE value="udp filter by mal byt komplet" />
     <MESSAGE value="udp filter je uz komplet" />
     <MESSAGE value="aj icmp je komplet" />
-    <option name="LAST_COMMIT_MESSAGE" value="aj icmp je komplet" />
+    <MESSAGE value="arp request" />
+    <option name="LAST_COMMIT_MESSAGE" value="arp request" />
   </component>
 </project>
