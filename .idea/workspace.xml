@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e207a65-be94-4306-ab93-a033587053ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/trace-6.pcap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udpports.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603285463816</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="tcp filter by mal byt komplet">
+      <created>1603291407003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603291407003</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -260,6 +269,7 @@
     <MESSAGE value="Commit 2" />
     <MESSAGE value="Zacatie interaktivity prostredia fitrov" />
     <MESSAGE value="http filter funguje" />
-    <option name="LAST_COMMIT_MESSAGE" value="http filter funguje" />
+    <MESSAGE value="tcp filter by mal byt komplet" />
+    <option name="LAST_COMMIT_MESSAGE" value="tcp filter by mal byt komplet" />
   </component>
 </project>
