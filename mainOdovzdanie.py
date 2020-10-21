@@ -83,25 +83,6 @@ def process_pcap(file_name):
                                 file1.write(".")
                         file1.write("\n")
 
-                        #Tu len idem pocitat zdrojove a cielove adresy
-                        c = 0
-                        r = 0
-                        with open('statistics.txt', 'r') as file:
-                            # read a list of lines into data
-                            data = file.readlines()
-                            if(data == str(zdrojipdec)):
-                                r = c
-                                print("Nasiel som zhodnu Zrojovu Adresu")
-                            c+=1
-
-                        if i != 0:
-                            data[r] = str(zdrojipdec)
-                        # and write everything back
-                        with open('stats.txt', 'w') as file:
-                            file.writelines(data)
-                        file1 = open("statistics.txt", "a")
-                        file1.write("Statistics:\n")
-                        file1.close()
 
 
                         print("Protokol zistujem: ")
@@ -176,6 +157,13 @@ def process_pcap(file_name):
                             file1.write(dmac[ch].upper() + dmac[ch + 1].upper() + " ")
 
                         file1.write("\n")
+
+                        if(packet_type == "aaaa"):
+                            print("Najdem to jak nic ten ethertype aaaa")
+                            with open("snapET.txt") as s:
+                                for r in s:
+                                    if p[40:44] == r[0:4]:
+                                        file1.write(r[5:len(r)])
 
         ## vypis celeho packetu
         for i in p:
