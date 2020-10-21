@@ -1,0 +1,37 @@
+0000 Echo reply
+0300 Destination network unreachable
+0301 Destination host unreachable
+0302 Destination protocol unreachable
+0303 Destination port unreachable
+0304 Fragmentation required, and DF flag set
+0305 Source route failed
+0306 Destination network unknown
+0307 Destination host unknown
+0308 Source host isolated
+0309 Network administratively prohibited
+0310 Host administratively prohibited
+0311 Network unreachable for ToS
+0312 Host unreachable for ToS
+0313 Communication administratively prohibited
+0314 Host Precedence Violation
+0315 Precedence cutoff in effect
+0400 Source Quench
+0500 Redirect Datagram for the Network
+0501 Redirect Datagram for the Host
+0502 Redirect Datagram for the ToS & network
+0503 Redirect Datagram for the ToS & host
+0800 Echo request
+0900 Router Advertisement
+0a00 Router selection
+0b00 Time to live exceeded in transit
+0b01 Fragment reassembly time exceeded
+0c00 Pointer indicates the error
+0c01 Missing a required option
+0c02 Bad length
+0d00 Timestamp
+0e00 Timestamp reply
+0f00 nformation Request
+1000 Information Reply
+1100 Address Mask Request
+1200 Address Mask Reply
+1e00 Traceroute

@@ -278,8 +278,8 @@ def filter_pcap_tcp(file_name, filter_name):
              file1.write("TCP\n")
              file1.write(filter_name + "\n")
 
-             file1.write("Zdrojovy port: " + srcport+ "\n")
-             file1.write("Cielovy port: " + dstport + "\n")
+             file1.write("Zdrojovy port: " + str(int(srcport,16))+ "\n")
+             file1.write("Cielovy port: " + str(int(dstport,16)) + "\n")
 
              counter = 0
              ## vypis celeho packetu
@@ -318,6 +318,8 @@ def filter_pcap_udp(file_name, filter_name):
     file1.write("Lets get it started in file: " + file_name + "\n")
     file1.close()
 
+    otherport = 0
+
     for (pkt_data, pkt_metadata,) in RawPcapReader(file_name):
 
         p = bytes_hex(pkt_data).decode("utf-8")
@@ -350,6 +352,8 @@ def filter_pcap_udp(file_name, filter_name):
                 if protocol_type == "11":
                     print("JE to UDP: ")
 
+
+
                     print("Zistim ci aj hladany protokol: ")
                     srcport = p[68:72]
                     dstport = p[72:76]
@@ -358,11 +362,31 @@ def filter_pcap_udp(file_name, filter_name):
                     else:
                         smallerport = srcport
 
+
+                    if int(srcport, 16) == 69:
+                        otherport = dstport
+                    if int(dstport, 16) == 69:
+                        otherport = srcport
+
+                    print("Otherport: " + str(otherport))
+
+
                     if smallerport == filter_hex:
-                        vypisRamec = True
-                        print(smallerport + " ,,,, " + filter_hex)
-                        # file1.write(portrow[5:len(portrow)] + "\n")
-                        print("FINITO, idem zapisovat\n")
+                        if(count == 1):
+                            vypisRamec = True
+                            print(smallerport + " ,,,, " + filter_hex)
+                            # file1.write(portrow[5:len(portrow)] + "\n")
+                            print("FINITO, idem zapisovat\n")
+
+                    if(count>1):
+                        if(otherport == srcport or otherport == dstport or smallerport == filter_hex):
+
+                            vypisRamec = True
+                            print(smallerport + " ,,,, " + filter_hex)
+                            # file1.write(portrow[5:len(portrow)] + "\n")
+                            print("FINITO, idem zapisovat\n")
+
+
 
         if vypisRamec == True:
             file1 = open("hexramce.txt", "a")
@@ -409,8 +433,8 @@ def filter_pcap_udp(file_name, filter_name):
             file1.write("UDP\n")
             file1.write(filter_name + "\n")
 
-            file1.write("Zdrojovy port: " + srcport + "\n")
-            file1.write("Cielovy port: " + dstport + "\n")
+            file1.write("Zdrojovy port: " + str(int(srcport,16)) + "\n")
+            file1.write("Cielovy port: " + str(int(dstport,16)) + "\n")
 
             counter = 0
             ## vypis celeho packetu
@@ -435,7 +459,125 @@ def filter_pcap_udp(file_name, filter_name):
 
         count += 1
 
-             
+###########################################################################################################################
+#ICMP
+###########################################################################################################################
+def filter_pcap_icmp(file_name, filter_name):
+    print('3. Opening {}...'.format(file_name))
+
+    count = 1
+    ##zapisem si vsetky hexa veci do suboru
+    file1 = open("hexramce.txt", "w")
+    file1.write("Lets get it started in file: " + file_name + "\n")
+    file1.close()
+
+    for (pkt_data, pkt_metadata,) in RawPcapReader(file_name):
+
+        p = bytes_hex(pkt_data).decode("utf-8")
+        print("\n\nramec " + str(count) + "\n")
+
+        vypisRamec = False
+        # ideme hladat vsetky UDP
+        if (filter_name == "ICMP"):
+
+            print("Ideme filtrovat vsetky ICMP konverzacie")
+            packet_type = p[24:28]
+            print("Packet type is: " + packet_type)
+
+            if packet_type == "0800":
+                print("Je to ipv4 a Ethernet II")
+                protocol_type = p[46:48]
+                # to je TCP
+                if protocol_type == "01":
+                    print("JE to ICMP: ")
+
+                    print("Zistim ci aj hladany protokol: ")
+                    type = p[68:70]
+                    code = p[70:72]
+
+                    icmpprotocol = type+code
+                    print("Type: " + type + "\nCode: " + code + "\nIcmpprotocol: " + icmpprotocol)
+
+                    with open("icmptypes.txt") as filter_type:
+                        for riadok in filter_type:
+
+                            if icmpprotocol == riadok[0:4]:
+                                vypisRamec = True
+                                print("! " + riadok[5:len(riadok)])
+                                icmptypecode = riadok[5:len(riadok)]
+
+                                print("FINITO, idem zapisovat\n")
+
+        if vypisRamec == True:
+            file1 = open("hexramce.txt", "a")
+            file1.write("ramec " + str(count) + "\n")
+            api = ((len(p) + 1) // 2)
+            medium = ((len(p) + 1) // 2) + 4
+            if (api < 60):
+                medium = 64
+            file1.write("dlzka ramca poskytnuta pcap API - " + str(api) + " B\n")
+            file1.write("dlzka ramca prenasaneho po mediu - " + str(medium) + " B\n")
+
+            file1.write("Ethernet II\n")
+            smac = p[12:24]
+            file1.write("Zdrojova MAC adresa: ")
+            for ch in range(0, len(smac), 2):
+                file1.write(smac[ch].upper() + smac[ch + 1].upper() + " ")
+                print()
+            dmac = p[0:12]
+            file1.write("\nCielova MAC adresa: ")
+            for ch in range(0, len(dmac), 2):
+                file1.write(dmac[ch].upper() + dmac[ch + 1].upper() + " ")
+                print()
+            file1.write("\n")
+
+            file1.write("IPv4\n")
+
+            file1.write("zdrojova IP adresa: ")
+            for cislo in range(0, 8, 2):
+                zdrojip = p[52 + cislo:54 + cislo]
+                zdrojipdec = int(zdrojip, 16)
+                file1.write(str(zdrojipdec))
+                if cislo != 6:
+                    file1.write(".")
+                    print()
+            file1.write("\ncielova IP adresa: ")
+            for cislo in range(0, 8, 2):
+                cielip = p[60 + cislo:62 + cislo]
+                cielipdec = int(cielip, 16)
+                file1.write(str(cielipdec))
+                if cislo != 6:
+                    file1.write(".")
+            file1.write("\n")
+
+
+            file1.write(filter_name + "\n")
+            file1.write(icmptypecode)
+
+
+            counter = 0
+            ## vypis celeho packetu
+            for i in p:
+                file1.write(i)
+                # print(str(counter) + ". ")
+                # print(i)
+                if counter % 2 != 0 and counter != 0:
+                    if counter % 31 == 0:
+                        file1.write("\n")
+                        counter = 0
+                        continue
+                    if counter % 15 == 0:
+                        file1.write("  ")
+                    else:
+                        file1.write(" ")
+
+                counter += 1
+
+            file1.write("\n\n")
+            file1.close()
+
+        count += 1
+
 
 
 
@@ -479,7 +621,7 @@ if akcia=='2':
         filter_pcap_udp(file_name, "TFTP")
 
     if (komunikacia == '8'):
-        filter_pcap_tcp(file_name, "ICMP")
+        filter_pcap_icmp(file_name, "ICMP")
 
     if (komunikacia == '9'):
         filter_pcap_tcp(file_name, "ARP")
