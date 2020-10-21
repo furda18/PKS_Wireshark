@@ -585,7 +585,7 @@ def filter_pcap_icmp(file_name, filter_name):
 ## TU SA SPUSTA FUNKCIA
 
 print("Vitaj vo Wiresharku 3000!\n")
-file_name = "eth-8.pcap"
+file_name = "trace-6.pcap"
 print("Zadaj cislo pre akciu: \n'1' - pre vypis vsetkych ramcov\n'2' - pre specificke komunikacie")
 akcia = str(input())
 # print("Zadaj cele meno pcap suboru co chces analyzovat: ")
