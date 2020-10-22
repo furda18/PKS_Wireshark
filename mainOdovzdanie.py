@@ -205,6 +205,7 @@ def filter_pcap_tcp(file_name, filter_name):
 
         vypisRamec = False
         #ideme hladat vsetky TCP
+        #print(file_name)
         if(filter_name == "HTTP" or filter_name == "HTTPS" or filter_name == "TELNET" or filter_name == "SSH" or filter_name == "FTP-DATA" or filter_name == "FTP-CONTROL"):
             
             #priradim cislo protokolu do filtername
@@ -848,12 +849,137 @@ def filter_pcap_arp(file_name, filter_name):
         count += 1
 
 
+#################################################################################################################################################
+#
+#################################################################################################################################################
+
+def filter_pcap_doimpl(file_name, filter_name):
+    print('3. Opening {}...'.format(file_name))
+
+    count = 1
+    ##zapisem si vsetky hexa veci do suboru
+    file1 = open("hexramce.txt", "w")
+    file1.write("Lets get it started in file: " + file_name + "\n")
+    file1.close()
+
+    pocet_ramcov = 0
+
+    for (pkt_data, pkt_metadata,) in RawPcapReader(file_name):
+
+        p = bytes_hex(pkt_data).decode("utf-8")
+
+        vypisRamec = False
+        # ideme hladat vsetky TCP
+        # print(file_name)
+        if (filter_name == "PIM"):
+
+            # priradim cislo protokolu do filtername
+            with open("tcpports.txt") as filter_port:
+                for riadok in filter_port:
+                    riadok = riadok.rstrip()  # remove '\n' at end of line
+                    # print(riadok)
+
+                    if filter_name == riadok[5:len(riadok)]:
+                        print("ZHODA v Portoch co hladam: " + riadok)
+                        filter_hex = riadok[0:4]
+                        print("Cize " + filter_name + " je hexadecimalne: " + filter_hex)
+                        # file1.write(riadok[3:len(riadok)] + "\n")
+
+            print("Ideme filtrovat vsetky TCP konverzacie")
+            packet_type = p[24:28]
+            print("Packet type is: " + packet_type)
+
+            if packet_type == "0800":
+                print("Je to ipv4 a Ethernet II")
+                protocol_type = p[46:48]
+                # to je PIM
+                if protocol_type == "67":
+                    print("JE to PIM: ")
+
+                    vypisRamec = True
+                    pocet_ramcov += 1
+                    print("FINITO, idem zapisovat\n")
+
+        if vypisRamec == True:
+            file1 = open("hexramce.txt", "a")
+            file1.write("ramec " + str(count) + "\n")
+
+            api = ((len(p) + 1) // 2)
+            medium = ((len(p) + 1) // 2) + 4
+            if (api < 60):
+                medium = 64
+            file1.write("dlzka ramca poskytnuta pcap API - " + str(api) + " B\n")
+            file1.write("dlzka ramca prenasaneho po mediu - " + str(medium) + " B\n")
+
+            file1.write("Ethernet II\n")
+            smac = p[12:24]
+            file1.write("Zdrojova MAC adresa: ")
+            for ch in range(0, len(smac), 2):
+                file1.write(smac[ch].upper() + smac[ch + 1].upper() + " ")
+                print()
+            dmac = p[0:12]
+            file1.write("\nCielova MAC adresa: ")
+            for ch in range(0, len(dmac), 2):
+                file1.write(dmac[ch].upper() + dmac[ch + 1].upper() + " ")
+                print()
+            file1.write("\n")
+
+            file1.write("IPv4\n")
+
+            file1.write("zdrojova IP adresa: ")
+            for cislo in range(0, 8, 2):
+                zdrojip = p[52 + cislo:54 + cislo]
+                zdrojipdec = int(zdrojip, 16)
+                file1.write(str(zdrojipdec))
+                if cislo != 6:
+                    file1.write(".")
+                    print()
+            file1.write("\ncielova IP adresa: ")
+            for cislo in range(0, 8, 2):
+                cielip = p[60 + cislo:62 + cislo]
+                cielipdec = int(cielip, 16)
+                file1.write(str(cielipdec))
+                if cislo != 6:
+                    file1.write(".")
+            file1.write("\n")
+
+            file1.write("PIM\n")
+            #file1.write(filter_name + "\n")
+
+            counter = 0
+            ## vypis celeho packetu
+            for i in p:
+                file1.write(i)
+                # print(str(counter) + ". ")
+                # print(i)
+                if counter % 2 != 0 and counter != 0:
+                    if counter % 31 == 0:
+                        file1.write("\n")
+                        counter = 0
+                        continue
+                    if counter % 15 == 0:
+                        file1.write("  ")
+                    else:
+                        file1.write(" ")
+
+                counter += 1
+
+            file1.write("\n\n")
+            file1.close()
+
+
+
+        count += 1
+
+    file1 = open("hexramce.txt", "a")
+    file1.write("Pocet ramcov pri filtri PIM bol: " + str(pocet_ramcov))
+    file1.close()
 
 #########################################################################################################################################3
 ## TU SA SPUSTA FUNKCIA
 
 print("Vitaj vo Wiresharku 3000!\n")
-file_name = "trace-26.pcap"
+file_name = "trace_ip_nad_20_B.pcap"
 print("Zadaj cislo pre akciu: \n'1' - pre vypis vsetkych ramcov\n'2' - pre specificke komunikacie")
 akcia = str(input())
 # print("Zadaj cele meno pcap suboru co chces analyzovat: ")
@@ -864,7 +990,7 @@ if akcia=='1':
 
 if akcia=='2':
     print("Zadaj ktoru komunikaciu chces vyfiltrovat: \n'1' - HTTP\n'2' - HTTPS\n'3' - TELNET\n'4' - SSH\n'5' - FTP-CONTROL\n'"
-          "6' - FTP-DATA\n'7' - TFTP\n'8' - ICMP\n'9' - ARP")
+          "6' - FTP-DATA\n'7' - TFTP\n'8' - ICMP\n'9' - ARP\n'A' - PIM")
     komunikacia = str(input())
 
     if(komunikacia == '1'):
@@ -893,6 +1019,9 @@ if akcia=='2':
 
     if (komunikacia == '9'):
         filter_pcap_arp(file_name, "ARP")
+
+    if (komunikacia == 'A'):
+        filter_pcap_doimpl(file_name, "PIM")
 
 
 

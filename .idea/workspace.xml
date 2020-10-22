@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3e207a65-be94-4306-ab93-a033587053ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentacia.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentacia.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie_Wireshark.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie_Wireshark.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arpkomunikacie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arpkomunikacie.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexramce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexramce.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainOdovzdanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainOdovzdanie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocols.txt" beforeDir="false" afterPath="$PROJECT_DIR$/protocols.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603315705238</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="aaa">
+      <created>1603317295577</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603317295577</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -325,6 +334,7 @@
     <MESSAGE value="arp respond dako ide" />
     <MESSAGE value="doprdele" />
     <MESSAGE value="doriti aj s makom" />
-    <option name="LAST_COMMIT_MESSAGE" value="doriti aj s makom" />
+    <MESSAGE value="aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
   </component>
 </project>
